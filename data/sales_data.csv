@@ -1,0 +1,501 @@
+Order_ID,Order_Date,Customer_ID,Customer_Name,Category,Product,Quantity,Unit_Price,Sales,Discount,Profit,Region,Payment_Method
+ORD-10002,2025-09-28,CUST-0107,Customer 107,Electronics,Keyboard,5,726.3,3449.92,0.05,714.14,East,Bank Transfer
+ORD-10003,2025-05-30,CUST-0053,Customer 53,Office Supplies,Pen Set,2,58.59,99.6,0.15,43.82,West,Bank Transfer
+ORD-10004,2025-01-22,CUST-0108,Customer 108,Office Supplies,Printer Paper,1,25.42,22.88,0.1,9.97,West,Cash
+ORD-10005,2025-12-30,CUST-0055,Customer 55,Electronics,Headphones,4,721.09,2884.36,0.0,553.14,North,Credit Card
+ORD-10006,2025-03-30,CUST-0060,Customer 60,Electronics,Monitor,6,974.87,5556.76,0.05,1150.64,West,Cash
+ORD-10007,2025-09-21,CUST-0047,Customer 47,Furniture,Table Lamp,3,639.24,1917.72,0.0,556.38,South,Debit Card
+ORD-10008,2025-07-10,CUST-0018,Customer 18,Furniture,Sofa,2,331.34,629.55,0.05,177.66,East,Cash
+ORD-10009,2025-07-27,CUST-0109,Customer 109,Electronics,Keyboard,2,659.14,1186.45,0.1,214.8,West,Cash
+ORD-10010,2025-01-15,CUST-0045,Customer 45,Electronics,Keyboard,1,43.37,41.2,0.05,8.16,West,Mobile Banking
+ORD-10011,2025-10-16,CUST-0005,Customer 5,Electronics,Headphones,2,446.2,892.4,0.0,164.3,West,Cash
+ORD-10012,2025-04-09,CUST-0044,Customer 44,Electronics,Keyboard,6,1067.47,6084.58,0.05,1255.93,South,Mobile Banking
+ORD-10013,2025-09-12,CUST-0014,Customer 14,Office Supplies,Printer Paper,7,6.11,38.49,0.1,16.81,West,Bank Transfer
+ORD-10014,2025-02-21,CUST-0096,Customer 96,Electronics,Laptop,4,1091.39,4365.56,0.0,863.02,East,Bank Transfer
+ORD-10015,2025-08-31,CUST-0086,Customer 86,Electronics,Headphones,4,1117.39,3799.13,0.15,725.63,South,Cash
+ORD-10016,2025-12-06,CUST-0030,Customer 30,Accessories,Phone Case,6,100.77,513.93,0.15,186.62,East,Credit Card
+ORD-10017,2025-05-01,CUST-0116,Customer 116,Electronics,Headphones,5,1036.36,5181.8,0.0,1008.78,North,Bank Transfer
+ORD-10018,2025-06-21,CUST-0024,Customer 24,Office Supplies,Printer Paper,7,15.96,111.72,0.0,47.29,West,Credit Card
+ORD-10019,2025-02-21,CUST-0012,Customer 12,Electronics,Smartphone,6,843.16,4553.06,0.1,935.92,West,Credit Card
+ORD-10020,2025-05-10,CUST-0092,Customer 92,Electronics,Smartphone,6,63.83,363.83,0.05,69.48,South,Debit Card
+ORD-10021,2025-06-09,CUST-0070,Customer 70,Furniture,Desk,7,480.33,3026.08,0.1,916.51,East,Bank Transfer
+ORD-10022,2025-08-28,CUST-0016,Customer 16,Office Supplies,Pen Set,1,14.61,13.88,0.05,5.82,East,Cash
+ORD-10023,2025-12-12,CUST-0067,Customer 67,Electronics,Monitor,7,291.13,1834.12,0.1,375.57,North,Debit Card
+ORD-10024,2025-05-31,CUST-0031,Customer 31,Accessories,USB Cable,6,127.67,766.02,0.0,294.73,West,Credit Card
+ORD-10025,2025-01-02,CUST-0001,Customer 1,Furniture,Office Chair,6,631.13,3218.76,0.15,936.68,North,Credit Card
+ORD-10026,2025-06-01,CUST-0054,Customer 54,Electronics,Headphones,1,779.39,779.39,0.0,159.89,South,Cash
+ORD-10027,2025-04-09,CUST-0025,Customer 25,Office Supplies,Notebook,5,24.86,118.08,0.05,50.23,East,Bank Transfer
+ORD-10028,2025-03-09,CUST-0033,Customer 33,Electronics,Laptop,6,407.34,2199.64,0.1,419.06,East,Mobile Banking
+ORD-10029,2025-06-25,CUST-0076,Customer 76,Office Supplies,Notebook,3,31.31,93.93,0.0,40.64,South,Bank Transfer
+ORD-10030,2025-01-27,CUST-0098,Customer 98,Furniture,Bookshelf,5,366.77,1650.46,0.1,487.26,North,Cash
+ORD-10031,2025-01-04,CUST-0035,Customer 35,Office Supplies,Pen Set,1,6.36,5.09,0.2,2.17,South,Bank Transfer
+ORD-10032,2025-08-21,CUST-0037,Customer 37,Accessories,Phone Case,5,81.65,326.6,0.2,117.93,North,Cash
+ORD-10033,2025-06-10,CUST-0067,Customer 67,Electronics,Keyboard,2,679.24,1154.71,0.15,218.38,West,Debit Card
+ORD-10034,2025-05-07,CUST-0027,Customer 27,Office Supplies,Printer Paper,2,70.56,127.01,0.1,53.23,East,Bank Transfer
+ORD-10035,2025-12-21,CUST-0050,Customer 50,Electronics,Smartphone,1,743.53,743.53,0.0,156.03,West,Bank Transfer
+ORD-10036,2025-05-23,CUST-0092,Customer 92,Electronics,Monitor,2,135.43,243.77,0.1,50.93,North,Debit Card
+ORD-10037,2025-05-30,CUST-0058,Customer 58,Furniture,Sofa,2,50.44,100.88,0.0,28.78,South,Mobile Banking
+ORD-10038,2025-09-21,CUST-0053,Customer 53,Electronics,Laptop,4,278.59,1002.92,0.1,208.05,North,Cash
+ORD-10039,2025-11-07,CUST-0040,Customer 40,Furniture,Bookshelf,4,118.94,380.61,0.2,109.83,East,Credit Card
+ORD-10040,2025-04-02,CUST-0058,Customer 58,Furniture,Bookshelf,7,198.08,1386.56,0.0,426.47,East,Credit Card
+ORD-10041,2025-02-27,CUST-0001,Customer 1,Office Supplies,Notebook,7,22.27,148.1,0.05,61.99,West,Bank Transfer
+ORD-10042,2025-07-11,CUST-0063,Customer 63,Electronics,Keyboard,5,743.77,3532.91,0.05,715.65,West,Mobile Banking
+ORD-10043,2025-10-12,CUST-0078,Customer 78,Office Supplies,Notebook,4,6.54,26.16,0.0,10.84,West,Bank Transfer
+ORD-10044,2025-12-07,CUST-0039,Customer 39,Furniture,Desk,4,146.05,554.99,0.05,165.41,South,Bank Transfer
+ORD-10045,2025-08-11,CUST-0010,Customer 10,Accessories,Phone Case,2,168.55,320.24,0.05,119.71,North,Cash
+ORD-10046,2025-06-09,CUST-0091,Customer 91,Office Supplies,Printer Paper,4,47.31,179.78,0.05,75.63,North,Bank Transfer
+ORD-10047,2025-09-25,CUST-0067,Customer 67,Furniture,Sofa,1,674.0,572.9,0.15,174.23,North,Cash
+ORD-10048,2025-09-10,CUST-0115,Customer 115,Electronics,Smartphone,2,827.53,1655.06,0.0,331.72,South,Debit Card
+ORD-10049,2025-04-25,CUST-0105,Customer 105,Electronics,Smartphone,7,163.84,1032.19,0.1,197.28,North,Cash
+ORD-10050,2025-09-06,CUST-0036,Customer 36,Furniture,Sofa,2,313.73,564.71,0.1,165.3,East,Cash
+ORD-10051,2025-09-25,CUST-0113,Customer 113,Electronics,Keyboard,7,907.27,5715.8,0.1,1182.63,North,Credit Card
+ORD-10052,2025-12-08,CUST-0013,Customer 13,Furniture,Office Chair,3,96.99,290.97,0.0,81.83,East,Cash
+ORD-10053,2025-07-25,CUST-0095,Customer 95,Electronics,Monitor,4,698.79,2515.64,0.1,494.44,East,Cash
+ORD-10054,2025-02-22,CUST-0023,Customer 23,Electronics,Headphones,1,158.32,134.57,0.15,24.33,South,Debit Card
+ORD-10055,2025-08-23,CUST-0075,Customer 75,Furniture,Sofa,2,679.0,1222.2,0.1,348.19,North,Bank Transfer
+ORD-10056,2025-06-17,CUST-0042,Customer 42,Accessories,Webcam,1,149.36,134.42,0.1,52.1,North,Mobile Banking
+ORD-10057,2025-11-17,CUST-0086,Customer 86,Office Supplies,File Folder,4,21.22,72.15,0.15,30.46,West,Cash
+ORD-10058,2025-12-30,CUST-0054,Customer 54,Electronics,Keyboard,7,523.46,3114.59,0.15,643.67,East,Bank Transfer
+ORD-10059,2025-05-06,CUST-0058,Customer 58,Electronics,Monitor,4,164.61,658.44,0.0,125.45,North,Mobile Banking
+ORD-10060,2025-07-10,CUST-0113,Customer 113,Office Supplies,Notebook,1,69.88,69.88,0.0,28.73,West,Bank Transfer
+ORD-10061,2025-10-30,CUST-0021,Customer 21,Accessories,Webcam,6,167.04,851.9,0.15,325.78,East,Cash
+ORD-10062,2025-11-01,CUST-0014,Customer 14,Electronics,Laptop,7,559.09,3522.27,0.1,677.93,West,Credit Card
+ORD-10063,2025-08-12,CUST-0016,Customer 16,Accessories,Mouse,6,86.37,466.4,0.1,178.01,West,Cash
+ORD-10064,2025-11-12,CUST-0050,Customer 50,Furniture,Desk,4,82.08,262.66,0.2,73.65,South,Credit Card
+ORD-10065,2025-07-31,CUST-0077,Customer 77,Electronics,Keyboard,4,343.38,1373.52,0.0,285.3,South,Debit Card
+ORD-10066,2025-10-30,CUST-0025,Customer 25,Furniture,Sofa,2,85.44,145.25,0.15,42.62,North,Credit Card
+ORD-10067,2025-08-12,CUST-0111,Customer 111,Office Supplies,Printer Paper,1,32.01,28.81,0.1,12.34,East,Mobile Banking
+ORD-10068,2025-04-08,CUST-0105,Customer 105,Furniture,Office Chair,3,119.68,359.04,0.0,110.49,West,Credit Card
+ORD-10069,2025-12-24,CUST-0003,Customer 3,Furniture,Sofa,5,422.05,1899.22,0.1,545.62,East,Credit Card
+ORD-10070,2025-01-01,CUST-0051,Customer 51,Electronics,Laptop,5,737.26,3686.3,0.0,699.84,West,Debit Card
+ORD-10071,2025-09-07,CUST-0034,Customer 34,Electronics,Smartphone,6,932.47,5315.08,0.05,980.28,South,Cash
+ORD-10072,2025-11-09,CUST-0017,Customer 17,Furniture,Bookshelf,7,49.28,310.46,0.1,90.47,South,Mobile Banking
+ORD-10073,2025-08-14,CUST-0038,Customer 38,Electronics,Monitor,2,718.15,1364.48,0.05,268.63,East,Debit Card
+ORD-10074,2025-12-01,CUST-0030,Customer 30,Electronics,Laptop,7,640.23,4033.45,0.1,750.65,South,Credit Card
+ORD-10075,2025-12-06,CUST-0088,Customer 88,Furniture,Table Lamp,5,686.62,3261.44,0.05,978.88,East,Mobile Banking
+ORD-10076,2025-04-21,CUST-0023,Customer 23,Electronics,Headphones,7,712.1,4735.46,0.05,895.33,West,Cash
+ORD-10077,2025-12-18,CUST-0067,Customer 67,Electronics,Headphones,3,809.38,2428.14,0.0,495.9,East,Bank Transfer
+ORD-10078,2025-06-19,CUST-0061,Customer 61,Electronics,Monitor,6,129.23,775.38,0.0,152.11,South,Debit Card
+ORD-10079,2025-10-28,CUST-0027,Customer 27,Electronics,Smartphone,1,133.44,126.77,0.05,24.01,West,Mobile Banking
+ORD-10080,2025-12-03,CUST-0026,Customer 26,Accessories,Webcam,4,146.67,528.01,0.1,203.0,East,Debit Card
+ORD-10081,2025-12-31,CUST-0026,Customer 26,Office Supplies,Printer Paper,6,14.38,86.28,0.0,36.18,East,Mobile Banking
+ORD-10082,2025-10-01,CUST-0038,Customer 38,Furniture,Sofa,3,296.1,888.3,0.0,255.72,West,Debit Card
+ORD-10083,2025-08-19,CUST-0086,Customer 86,Furniture,Office Chair,2,388.67,777.34,0.0,232.98,North,Cash
+ORD-10084,2025-04-19,CUST-0018,Customer 18,Electronics,Laptop,7,711.43,4482.01,0.1,866.23,West,Credit Card
+ORD-10085,2025-04-11,CUST-0006,Customer 6,Furniture,Desk,4,462.76,1665.94,0.1,498.64,North,Bank Transfer
+ORD-10086,2025-05-30,CUST-0021,Customer 21,Accessories,Webcam,6,70.84,403.79,0.05,147.17,South,Credit Card
+ORD-10087,2025-01-31,CUST-0040,Customer 40,Electronics,Headphones,5,1179.29,5896.45,0.0,1167.88,West,Mobile Banking
+ORD-10088,2025-04-04,CUST-0120,Customer 120,Accessories,Backpack,6,123.01,627.35,0.15,234.19,West,Debit Card
+ORD-10089,2025-05-13,CUST-0070,Customer 70,Electronics,Monitor,2,405.32,770.11,0.05,150.0,North,Cash
+ORD-10090,2025-05-22,CUST-0064,Customer 64,Electronics,Smartphone,6,707.95,4247.7,0.0,830.7,East,Mobile Banking
+ORD-10091,2025-01-10,CUST-0005,Customer 5,Electronics,Smartphone,7,669.98,4689.86,0.0,888.55,West,Credit Card
+ORD-10092,2025-09-30,CUST-0009,Customer 9,Electronics,Laptop,3,580.97,1568.62,0.1,292.03,East,Credit Card
+ORD-10093,2025-08-24,CUST-0050,Customer 50,Accessories,Phone Case,6,168.47,808.66,0.2,310.4,East,Mobile Banking
+ORD-10094,2025-11-16,CUST-0093,Customer 93,Accessories,Phone Case,3,144.79,434.37,0.0,167.27,North,Bank Transfer
+ORD-10095,2025-03-19,CUST-0026,Customer 26,Accessories,USB Cable,6,69.72,355.57,0.15,134.49,West,Mobile Banking
+ORD-10096,2025-01-23,CUST-0063,Customer 63,Office Supplies,Notebook,7,47.47,315.68,0.05,135.19,South,Bank Transfer
+ORD-10097,2025-02-08,CUST-0051,Customer 51,Accessories,USB Cable,6,169.65,916.11,0.1,348.08,West,Cash
+ORD-10098,2025-10-16,CUST-0116,Customer 116,Office Supplies,File Folder,6,71.83,387.88,0.1,168.9,North,Bank Transfer
+ORD-10099,2025-09-11,CUST-0068,Customer 68,Electronics,Laptop,6,864.03,4924.97,0.05,922.75,South,Bank Transfer
+ORD-10100,2025-12-31,CUST-0088,Customer 88,Electronics,Monitor,4,491.81,1770.52,0.1,363.85,East,Cash
+ORD-10101,2025-04-05,CUST-0115,Customer 115,Office Supplies,Printer Paper,3,46.54,125.66,0.1,53.03,West,Mobile Banking
+ORD-10102,2025-10-29,CUST-0107,Customer 107,Accessories,Mouse,4,164.84,659.36,0.0,255.16,North,Cash
+ORD-10103,2025-12-22,CUST-0112,Customer 112,Office Supplies,Stapler,4,63.84,255.36,0.0,107.37,North,Cash
+ORD-10104,2025-02-20,CUST-0029,Customer 29,Electronics,Laptop,6,1122.88,5726.69,0.15,1125.15,South,Bank Transfer
+ORD-10105,2025-07-01,CUST-0087,Customer 87,Accessories,Phone Case,1,65.13,61.87,0.05,23.71,East,Bank Transfer
+ORD-10106,2025-05-17,CUST-0074,Customer 74,Electronics,Keyboard,4,950.65,3422.34,0.1,706.96,West,Credit Card
+ORD-10107,2025-07-29,CUST-0091,Customer 91,Accessories,Mouse,2,165.97,298.75,0.1,116.22,East,Mobile Banking
+ORD-10108,2025-06-29,CUST-0070,Customer 70,Electronics,Laptop,5,1099.94,5224.71,0.05,1006.19,South,Debit Card
+ORD-10109,2025-02-18,CUST-0071,Customer 71,Electronics,Keyboard,1,1154.26,1154.26,0.0,228.04,West,Bank Transfer
+ORD-10110,2025-08-12,CUST-0013,Customer 13,Electronics,Laptop,6,906.2,5437.2,0.0,995.32,West,Bank Transfer
+ORD-10111,2025-10-13,CUST-0016,Customer 16,Office Supplies,File Folder,3,8.06,21.76,0.1,9.28,South,Cash
+ORD-10112,2025-11-15,CUST-0004,Customer 4,Furniture,Bookshelf,1,254.02,254.02,0.0,73.01,South,Debit Card
+ORD-10113,2025-03-28,CUST-0055,Customer 55,Accessories,Mouse,4,152.44,518.3,0.15,195.79,North,Mobile Banking
+ORD-10114,2025-09-12,CUST-0072,Customer 72,Electronics,Headphones,6,423.64,2287.66,0.1,419.5,West,Debit Card
+ORD-10115,2025-06-14,CUST-0054,Customer 54,Accessories,USB Cable,5,77.9,370.02,0.05,143.34,South,Credit Card
+ORD-10116,2025-04-22,CUST-0019,Customer 19,Electronics,Headphones,4,780.44,2809.58,0.1,513.26,North,Cash
+ORD-10117,2025-07-14,CUST-0087,Customer 87,Electronics,Smartphone,7,339.97,2141.81,0.1,423.47,South,Credit Card
+ORD-10118,2025-12-21,CUST-0116,Customer 116,Furniture,Table Lamp,2,541.62,1083.24,0.0,307.58,West,Mobile Banking
+ORD-10119,2025-04-25,CUST-0081,Customer 81,Accessories,Backpack,6,135.57,732.08,0.1,276.67,North,Mobile Banking
+ORD-10120,2025-01-29,CUST-0109,Customer 109,Furniture,Desk,2,212.45,424.9,0.0,120.06,North,Debit Card
+ORD-10121,2025-01-17,CUST-0037,Customer 37,Furniture,Desk,1,363.3,326.97,0.1,100.32,South,Bank Transfer
+ORD-10122,2025-06-17,CUST-0098,Customer 98,Electronics,Headphones,4,768.89,2921.78,0.05,563.32,North,Debit Card
+ORD-10123,2025-02-15,CUST-0064,Customer 64,Furniture,Desk,2,141.41,254.54,0.1,78.28,West,Mobile Banking
+ORD-10124,2025-09-24,CUST-0040,Customer 40,Electronics,Keyboard,3,442.92,1195.88,0.1,240.48,East,Debit Card
+ORD-10125,2025-11-08,CUST-0033,Customer 33,Furniture,Sofa,2,50.89,101.78,0.0,29.73,East,Credit Card
+ORD-10126,2025-07-20,CUST-0026,Customer 26,Furniture,Sofa,2,101.42,202.84,0.0,58.45,North,Bank Transfer
+ORD-10127,2025-01-25,CUST-0039,Customer 39,Office Supplies,Printer Paper,3,66.07,178.39,0.1,74.77,South,Debit Card
+ORD-10128,2025-02-13,CUST-0059,Customer 59,Electronics,Keyboard,3,1155.47,3119.77,0.1,590.52,North,Cash
+ORD-10129,2025-09-21,CUST-0095,Customer 95,Furniture,Bookshelf,5,538.55,2423.48,0.1,704.95,West,Credit Card
+ORD-10130,2025-05-23,CUST-0059,Customer 59,Accessories,Phone Case,2,16.87,30.37,0.1,11.8,West,Credit Card
+ORD-10131,2025-03-27,CUST-0007,Customer 7,Electronics,Keyboard,6,166.61,899.69,0.1,183.74,West,Debit Card
+ORD-10132,2025-03-23,CUST-0095,Customer 95,Furniture,Sofa,6,66.77,380.59,0.05,112.02,East,Credit Card
+ORD-10133,2025-04-18,CUST-0060,Customer 60,Office Supplies,Pen Set,5,8.93,40.18,0.1,17.27,East,Cash
+ORD-10134,2025-01-04,CUST-0093,Customer 93,Furniture,Office Chair,6,243.56,1315.22,0.1,372.76,South,Cash
+ORD-10135,2025-06-19,CUST-0034,Customer 34,Electronics,Headphones,6,25.28,151.68,0.0,30.11,West,Mobile Banking
+ORD-10136,2025-01-29,CUST-0062,Customer 62,Electronics,Monitor,1,497.27,472.41,0.05,90.31,West,Cash
+ORD-10137,2025-12-25,CUST-0084,Customer 84,Accessories,Mouse,5,133.95,669.75,0.0,251.81,West,Debit Card
+ORD-10138,2025-06-02,CUST-0048,Customer 48,Electronics,Keyboard,1,1094.65,1094.65,0.0,226.28,North,Cash
+ORD-10139,2025-10-20,CUST-0061,Customer 61,Electronics,Smartphone,5,130.06,617.78,0.05,113.44,South,Mobile Banking
+ORD-10140,2025-06-02,CUST-0071,Customer 71,Accessories,Mouse,4,19.18,72.88,0.05,26.59,South,Bank Transfer
+ORD-10141,2025-04-17,CUST-0098,Customer 98,Accessories,Mouse,1,45.92,45.92,0.0,16.83,South,Bank Transfer
+ORD-10142,2025-01-09,CUST-0099,Customer 99,Electronics,Laptop,4,1194.02,4776.08,0.0,946.2,South,Debit Card
+ORD-10143,2025-06-09,CUST-0099,Customer 99,Office Supplies,Pen Set,6,50.97,275.24,0.1,120.82,West,Bank Transfer
+ORD-10144,2025-11-19,CUST-0092,Customer 92,Electronics,Laptop,5,1069.28,4277.12,0.2,787.57,North,Credit Card
+ORD-10145,2025-08-14,CUST-0088,Customer 88,Furniture,Bookshelf,4,279.7,1118.8,0.0,322.55,South,Debit Card
+ORD-10146,2025-06-25,CUST-0077,Customer 77,Electronics,Monitor,4,114.45,389.13,0.15,75.94,West,Bank Transfer
+ORD-10147,2025-02-25,CUST-0040,Customer 40,Accessories,USB Cable,2,101.53,172.6,0.15,63.51,West,Mobile Banking
+ORD-10148,2025-12-19,CUST-0059,Customer 59,Accessories,Phone Case,3,35.59,101.43,0.05,38.83,North,Debit Card
+ORD-10149,2025-07-07,CUST-0007,Customer 7,Electronics,Headphones,5,1060.02,4505.08,0.15,942.11,East,Debit Card
+ORD-10150,2025-06-07,CUST-0039,Customer 39,Electronics,Headphones,7,26.32,165.82,0.1,31.06,West,Debit Card
+ORD-10151,2025-04-23,CUST-0105,Customer 105,Electronics,Headphones,1,161.12,153.06,0.05,32.1,North,Mobile Banking
+ORD-10152,2025-03-15,CUST-0105,Customer 105,Electronics,Headphones,2,426.7,768.06,0.1,139.82,North,Cash
+ORD-10153,2025-08-30,CUST-0068,Customer 68,Electronics,Monitor,3,220.49,595.32,0.1,112.36,South,Credit Card
+ORD-10154,2025-07-29,CUST-0050,Customer 50,Electronics,Headphones,6,1168.85,5610.48,0.2,1052.02,East,Cash
+ORD-10155,2025-02-02,CUST-0006,Customer 6,Office Supplies,File Folder,7,40.63,255.97,0.1,107.38,South,Debit Card
+ORD-10156,2025-01-04,CUST-0081,Customer 81,Electronics,Keyboard,3,555.38,1666.14,0.0,310.16,North,Mobile Banking
+ORD-10157,2025-06-24,CUST-0078,Customer 78,Electronics,Smartphone,4,794.05,3176.2,0.0,576.4,West,Cash
+ORD-10158,2025-03-25,CUST-0006,Customer 6,Office Supplies,File Folder,3,24.11,57.86,0.2,24.75,West,Debit Card
+ORD-10159,2025-10-08,CUST-0024,Customer 24,Electronics,Laptop,4,686.23,2607.67,0.05,505.11,West,Credit Card
+ORD-10160,2025-01-08,CUST-0079,Customer 79,Accessories,Webcam,3,153.3,413.91,0.1,153.65,West,Cash
+ORD-10161,2025-02-15,CUST-0015,Customer 15,Electronics,Monitor,1,26.45,23.8,0.1,4.56,West,Cash
+ORD-10162,2025-11-15,CUST-0086,Customer 86,Furniture,Office Chair,6,248.37,1341.2,0.1,398.34,West,Bank Transfer
+ORD-10163,2025-10-01,CUST-0094,Customer 94,Electronics,Keyboard,2,588.93,1060.07,0.1,213.34,North,Credit Card
+ORD-10164,2025-09-24,CUST-0086,Customer 86,Accessories,Backpack,3,26.05,78.15,0.0,28.17,West,Cash
+ORD-10165,2025-08-30,CUST-0097,Customer 97,Office Supplies,Printer Paper,2,44.14,75.04,0.15,32.83,North,Cash
+ORD-10166,2025-06-15,CUST-0103,Customer 103,Electronics,Smartphone,2,835.12,1419.7,0.15,289.61,East,Cash
+ORD-10167,2025-11-13,CUST-0067,Customer 67,Electronics,Headphones,3,62.11,158.38,0.15,33.01,West,Credit Card
+ORD-10168,2025-12-14,CUST-0062,Customer 62,Office Supplies,Printer Paper,4,29.14,99.08,0.15,43.36,West,Cash
+ORD-10169,2025-01-03,CUST-0041,Customer 41,Office Supplies,Printer Paper,4,59.33,237.32,0.0,103.99,East,Cash
+ORD-10170,2025-08-31,CUST-0019,Customer 19,Electronics,Keyboard,7,577.46,3638.0,0.1,668.83,North,Mobile Banking
+ORD-10171,2025-07-30,CUST-0022,Customer 22,Electronics,Smartphone,5,1195.69,4782.76,0.2,911.07,South,Mobile Banking
+ORD-10172,2025-07-26,CUST-0097,Customer 97,Office Supplies,File Folder,7,38.62,229.79,0.15,96.09,North,Cash
+ORD-10173,2025-12-30,CUST-0020,Customer 20,Office Supplies,Stapler,4,6.09,20.71,0.15,8.75,West,Debit Card
+ORD-10174,2025-03-07,CUST-0079,Customer 79,Office Supplies,Stapler,2,64.06,115.31,0.1,47.3,South,Bank Transfer
+ORD-10175,2025-01-18,CUST-0040,Customer 40,Electronics,Keyboard,5,886.41,4432.05,0.0,835.55,West,Debit Card
+ORD-10176,2025-10-20,CUST-0069,Customer 69,Electronics,Smartphone,6,603.43,3620.58,0.0,665.74,East,Credit Card
+ORD-10177,2025-12-11,CUST-0028,Customer 28,Office Supplies,Notebook,2,69.06,138.12,0.0,58.33,West,Cash
+ORD-10178,2025-01-10,CUST-0067,Customer 67,Accessories,USB Cable,6,37.2,212.04,0.05,80.55,South,Credit Card
+ORD-10179,2025-09-21,CUST-0043,Customer 43,Furniture,Table Lamp,4,503.54,2014.16,0.0,614.26,North,Mobile Banking
+ORD-10180,2025-07-23,CUST-0037,Customer 37,Office Supplies,File Folder,1,68.0,57.8,0.15,24.42,East,Cash
+ORD-10181,2025-11-30,CUST-0002,Customer 2,Furniture,Table Lamp,1,385.88,328.0,0.15,101.29,East,Mobile Banking
+ORD-10182,2025-02-28,CUST-0069,Customer 69,Furniture,Sofa,1,369.85,369.85,0.0,113.01,North,Debit Card
+ORD-10183,2025-05-06,CUST-0098,Customer 98,Accessories,USB Cable,1,117.93,100.24,0.15,37.73,East,Mobile Banking
+ORD-10184,2025-10-21,CUST-0084,Customer 84,Furniture,Table Lamp,7,50.08,333.03,0.05,96.2,South,Cash
+ORD-10185,2025-12-07,CUST-0001,Customer 1,Office Supplies,Printer Paper,7,54.79,364.35,0.05,150.82,South,Debit Card
+ORD-10186,2025-04-24,CUST-0082,Customer 82,Office Supplies,Printer Paper,1,66.98,56.93,0.15,23.74,East,Credit Card
+ORD-10187,2025-01-01,CUST-0019,Customer 19,Office Supplies,Notebook,7,53.73,357.3,0.05,150.23,South,Cash
+ORD-10188,2025-06-10,CUST-0041,Customer 41,Electronics,Laptop,1,1048.14,943.33,0.1,182.05,North,Mobile Banking
+ORD-10189,2025-04-12,CUST-0110,Customer 110,Accessories,Webcam,4,122.83,417.62,0.15,153.32,North,Mobile Banking
+ORD-10190,2025-12-10,CUST-0054,Customer 54,Accessories,Backpack,7,8.99,59.78,0.05,22.66,East,Bank Transfer
+ORD-10191,2025-11-01,CUST-0096,Customer 96,Furniture,Sofa,1,327.76,327.76,0.0,95.83,West,Debit Card
+ORD-10192,2025-01-03,CUST-0085,Customer 85,Office Supplies,Notebook,2,76.26,129.64,0.15,53.49,North,Debit Card
+ORD-10193,2025-10-31,CUST-0037,Customer 37,Electronics,Keyboard,7,651.98,4107.47,0.1,768.32,South,Debit Card
+ORD-10194,2025-01-21,CUST-0023,Customer 23,Office Supplies,Pen Set,3,3.58,9.67,0.1,3.99,North,Cash
+ORD-10195,2025-10-04,CUST-0013,Customer 13,Accessories,Phone Case,6,41.46,248.76,0.0,92.41,North,Cash
+ORD-10196,2025-08-27,CUST-0028,Customer 28,Office Supplies,File Folder,3,47.73,143.19,0.0,59.92,South,Credit Card
+ORD-10197,2025-12-11,CUST-0094,Customer 94,Accessories,Mouse,3,29.19,74.43,0.15,27.24,East,Credit Card
+ORD-10198,2025-02-05,CUST-0084,Customer 84,Furniture,Desk,4,88.32,300.29,0.15,89.73,North,Debit Card
+ORD-10199,2025-04-28,CUST-0021,Customer 21,Electronics,Keyboard,6,722.41,3901.01,0.1,743.54,West,Debit Card
+ORD-10200,2025-03-13,CUST-0024,Customer 24,Electronics,Smartphone,1,303.32,272.99,0.1,55.08,East,Cash
+ORD-10201,2025-12-11,CUST-0018,Customer 18,Furniture,Desk,3,447.99,1276.77,0.05,373.33,East,Credit Card
+ORD-10202,2025-06-10,CUST-0119,Customer 119,Office Supplies,Printer Paper,5,10.37,51.85,0.0,21.82,West,Mobile Banking
+ORD-10203,2025-09-11,CUST-0025,Customer 25,Electronics,Keyboard,2,347.58,625.64,0.1,118.7,South,Bank Transfer
+ORD-10204,2025-10-07,CUST-0060,Customer 60,Office Supplies,Notebook,6,11.02,59.51,0.1,25.15,East,Bank Transfer
+ORD-10205,2025-12-19,CUST-0036,Customer 36,Electronics,Keyboard,3,496.4,1414.74,0.05,282.51,East,Cash
+ORD-10206,2025-05-10,CUST-0060,Customer 60,Furniture,Table Lamp,5,76.85,345.82,0.1,104.39,West,Debit Card
+ORD-10207,2025-02-27,CUST-0003,Customer 3,Office Supplies,Stapler,6,54.55,261.84,0.2,110.01,North,Mobile Banking
+ORD-10208,2025-09-21,CUST-0022,Customer 22,Office Supplies,Stapler,4,9.84,31.49,0.2,13.26,East,Credit Card
+ORD-10209,2025-06-07,CUST-0055,Customer 55,Electronics,Smartphone,4,433.4,1560.24,0.1,290.42,West,Bank Transfer
+ORD-10210,2025-04-14,CUST-0118,Customer 118,Electronics,Headphones,5,891.19,4010.36,0.1,812.86,South,Bank Transfer
+ORD-10211,2025-08-19,CUST-0032,Customer 32,Electronics,Smartphone,1,739.97,702.97,0.05,144.26,North,Cash
+ORD-10212,2025-08-25,CUST-0066,Customer 66,Electronics,Smartphone,1,127.98,108.78,0.15,21.04,East,Mobile Banking
+ORD-10213,2025-07-15,CUST-0082,Customer 82,Furniture,Desk,7,138.38,871.79,0.1,255.23,West,Bank Transfer
+ORD-10214,2025-08-27,CUST-0049,Customer 49,Furniture,Table Lamp,2,391.62,704.92,0.1,204.27,South,Mobile Banking
+ORD-10215,2025-01-14,CUST-0073,Customer 73,Office Supplies,Stapler,7,34.03,238.21,0.0,99.85,South,Cash
+ORD-10216,2025-01-25,CUST-0066,Customer 66,Furniture,Desk,1,351.17,333.61,0.05,97.35,North,Bank Transfer
+ORD-10217,2025-01-25,CUST-0013,Customer 13,Electronics,Headphones,5,168.07,798.33,0.05,155.53,East,Cash
+ORD-10218,2025-10-15,CUST-0096,Customer 96,Electronics,Monitor,4,391.38,1487.24,0.05,292.71,West,Bank Transfer
+ORD-10219,2025-03-01,CUST-0023,Customer 23,Electronics,Smartphone,3,479.09,1293.54,0.1,264.2,North,Debit Card
+ORD-10220,2025-09-10,CUST-0031,Customer 31,Furniture,Desk,7,689.06,4823.42,0.0,1474.68,North,Cash
+ORD-10221,2025-09-20,CUST-0080,Customer 80,Electronics,Headphones,4,751.21,2704.36,0.1,549.35,North,Cash
+ORD-10222,2025-05-04,CUST-0038,Customer 38,Electronics,Monitor,7,876.07,5519.24,0.1,1092.02,West,Bank Transfer
+ORD-10223,2025-04-02,CUST-0086,Customer 86,Electronics,Headphones,6,232.84,1327.19,0.05,240.33,East,Debit Card
+ORD-10224,2025-09-03,CUST-0102,Customer 102,Electronics,Keyboard,7,709.02,4466.83,0.1,912.61,North,Credit Card
+ORD-10225,2025-08-30,CUST-0109,Customer 109,Electronics,Smartphone,5,258.66,1293.3,0.0,269.94,North,Mobile Banking
+ORD-10226,2025-07-10,CUST-0021,Customer 21,Electronics,Headphones,4,337.57,1350.28,0.0,278.41,South,Cash
+ORD-10227,2025-08-20,CUST-0099,Customer 99,Electronics,Smartphone,1,746.55,634.57,0.15,125.79,South,Bank Transfer
+ORD-10228,2025-04-30,CUST-0009,Customer 9,Electronics,Laptop,1,833.56,791.88,0.05,160.24,South,Debit Card
+ORD-10229,2025-08-20,CUST-0021,Customer 21,Electronics,Monitor,4,773.71,2785.36,0.1,510.13,West,Credit Card
+ORD-10230,2025-12-09,CUST-0088,Customer 88,Office Supplies,Stapler,5,14.56,65.52,0.1,27.82,North,Bank Transfer
+ORD-10231,2025-04-19,CUST-0051,Customer 51,Electronics,Headphones,3,39.23,94.15,0.2,17.69,South,Cash
+ORD-10232,2025-01-28,CUST-0051,Customer 51,Electronics,Headphones,3,509.25,1451.36,0.05,268.62,West,Debit Card
+ORD-10233,2025-12-03,CUST-0095,Customer 95,Electronics,Monitor,1,1171.79,1054.61,0.1,221.14,West,Cash
+ORD-10234,2025-08-05,CUST-0119,Customer 119,Office Supplies,Notebook,6,71.98,410.29,0.05,178.99,East,Debit Card
+ORD-10235,2025-06-09,CUST-0095,Customer 95,Office Supplies,File Folder,4,15.06,60.24,0.0,26.31,South,Credit Card
+ORD-10236,2025-11-30,CUST-0089,Customer 89,Electronics,Headphones,2,1133.11,2266.22,0.0,467.65,West,Mobile Banking
+ORD-10237,2025-05-02,CUST-0032,Customer 32,Accessories,Webcam,6,156.16,796.42,0.15,288.65,South,Bank Transfer
+ORD-10238,2025-05-06,CUST-0008,Customer 8,Office Supplies,File Folder,6,59.09,319.09,0.1,134.12,East,Mobile Banking
+ORD-10239,2025-10-12,CUST-0013,Customer 13,Electronics,Monitor,2,151.83,273.29,0.1,56.64,South,Mobile Banking
+ORD-10240,2025-10-05,CUST-0043,Customer 43,Electronics,Monitor,5,718.66,3413.64,0.05,686.39,East,Bank Transfer
+ORD-10241,2025-10-08,CUST-0101,Customer 101,Electronics,Monitor,7,214.0,1348.2,0.1,250.29,West,Bank Transfer
+ORD-10242,2025-04-14,CUST-0099,Customer 99,Accessories,Phone Case,2,121.1,230.09,0.05,84.61,South,Mobile Banking
+ORD-10243,2025-04-22,CUST-0013,Customer 13,Electronics,Laptop,1,676.22,676.22,0.0,126.57,South,Cash
+ORD-10244,2025-01-20,CUST-0075,Customer 75,Office Supplies,Notebook,3,67.83,193.32,0.05,82.15,South,Cash
+ORD-10245,2025-01-20,CUST-0010,Customer 10,Furniture,Table Lamp,6,427.34,2435.84,0.05,724.96,West,Bank Transfer
+ORD-10246,2025-07-07,CUST-0057,Customer 57,Electronics,Monitor,5,134.26,604.17,0.1,118.16,South,Mobile Banking
+ORD-10247,2025-02-24,CUST-0116,Customer 116,Electronics,Smartphone,4,87.04,330.75,0.05,63.51,East,Cash
+ORD-10248,2025-11-15,CUST-0110,Customer 110,Accessories,Backpack,3,18.07,51.5,0.05,18.87,South,Bank Transfer
+ORD-10249,2025-06-22,CUST-0100,Customer 100,Office Supplies,Pen Set,6,28.27,161.14,0.05,70.47,West,Credit Card
+ORD-10250,2025-10-30,CUST-0075,Customer 75,Office Supplies,Pen Set,1,74.85,67.36,0.1,28.79,West,Cash
+ORD-10251,2025-07-17,CUST-0047,Customer 47,Office Supplies,Pen Set,6,60.54,326.92,0.1,134.52,North,Credit Card
+ORD-10252,2025-02-19,CUST-0003,Customer 3,Furniture,Desk,5,499.17,2246.26,0.1,656.82,South,Credit Card
+ORD-10253,2025-09-02,CUST-0019,Customer 19,Accessories,USB Cable,2,154.67,309.34,0.0,117.14,West,Bank Transfer
+ORD-10254,2025-03-15,CUST-0064,Customer 64,Furniture,Sofa,5,503.03,2263.64,0.1,698.34,East,Debit Card
+ORD-10255,2025-04-10,CUST-0070,Customer 70,Accessories,Backpack,1,35.33,31.8,0.1,12.27,East,Cash
+ORD-10256,2025-08-01,CUST-0030,Customer 30,Office Supplies,Stapler,4,6.43,25.72,0.0,11.1,East,Cash
+ORD-10257,2025-12-02,CUST-0016,Customer 16,Office Supplies,Printer Paper,6,36.02,183.7,0.15,79.35,North,Bank Transfer
+ORD-10258,2025-03-25,CUST-0082,Customer 82,Accessories,USB Cable,2,104.66,198.85,0.05,75.67,East,Debit Card
+ORD-10259,2025-05-28,CUST-0088,Customer 88,Office Supplies,Pen Set,7,70.92,471.62,0.05,195.8,West,Credit Card
+ORD-10260,2025-03-23,CUST-0069,Customer 69,Furniture,Sofa,3,515.85,1547.55,0.0,464.04,East,Credit Card
+ORD-10261,2025-06-10,CUST-0050,Customer 50,Accessories,Phone Case,5,46.75,233.75,0.0,85.2,East,Credit Card
+ORD-10262,2025-03-02,CUST-0098,Customer 98,Furniture,Sofa,4,514.29,2057.16,0.0,594.04,North,Debit Card
+ORD-10263,2025-03-06,CUST-0074,Customer 74,Electronics,Smartphone,5,190.63,857.84,0.1,174.59,South,Debit Card
+ORD-10264,2025-05-05,CUST-0039,Customer 39,Accessories,USB Cable,6,57.98,313.09,0.1,121.05,East,Debit Card
+ORD-10265,2025-11-15,CUST-0049,Customer 49,Accessories,USB Cable,7,158.01,1050.77,0.05,385.89,West,Bank Transfer
+ORD-10266,2025-04-02,CUST-0014,Customer 14,Office Supplies,Stapler,3,75.89,204.9,0.1,85.54,North,Debit Card
+ORD-10267,2025-02-13,CUST-0097,Customer 97,Electronics,Headphones,2,609.93,1219.86,0.0,232.14,North,Mobile Banking
+ORD-10268,2025-07-16,CUST-0051,Customer 51,Furniture,Bookshelf,3,166.52,474.58,0.05,143.03,West,Credit Card
+ORD-10269,2025-03-13,CUST-0055,Customer 55,Furniture,Sofa,1,295.3,251.0,0.15,73.8,South,Cash
+ORD-10270,2025-09-20,CUST-0080,Customer 80,Office Supplies,Stapler,3,30.96,78.95,0.15,34.34,South,Credit Card
+ORD-10271,2025-06-25,CUST-0107,Customer 107,Office Supplies,File Folder,5,36.9,166.05,0.1,72.65,West,Credit Card
+ORD-10272,2025-03-04,CUST-0109,Customer 109,Accessories,Backpack,7,29.06,183.08,0.1,69.63,West,Debit Card
+ORD-10273,2025-11-21,CUST-0025,Customer 25,Furniture,Bookshelf,3,383.36,1035.07,0.1,293.23,South,Bank Transfer
+ORD-10274,2025-09-22,CUST-0116,Customer 116,Accessories,Phone Case,6,101.02,545.51,0.1,207.6,East,Debit Card
+ORD-10275,2025-08-01,CUST-0088,Customer 88,Accessories,Phone Case,2,148.91,253.15,0.15,94.74,West,Bank Transfer
+ORD-10276,2025-07-09,CUST-0033,Customer 33,Electronics,Smartphone,5,518.64,2204.22,0.15,413.97,South,Debit Card
+ORD-10277,2025-11-21,CUST-0108,Customer 108,Office Supplies,Notebook,3,67.97,203.91,0.0,89.53,North,Debit Card
+ORD-10278,2025-02-16,CUST-0039,Customer 39,Electronics,Monitor,6,1030.49,6182.94,0.0,1143.16,East,Mobile Banking
+ORD-10279,2025-10-30,CUST-0038,Customer 38,Office Supplies,Notebook,7,19.37,135.59,0.0,58.42,South,Cash
+ORD-10280,2025-02-08,CUST-0009,Customer 9,Accessories,Phone Case,3,18.16,46.31,0.15,17.16,South,Mobile Banking
+ORD-10281,2025-04-01,CUST-0098,Customer 98,Electronics,Headphones,6,565.92,2886.19,0.15,558.77,East,Mobile Banking
+ORD-10282,2025-03-25,CUST-0113,Customer 113,Accessories,USB Cable,1,80.49,80.49,0.0,29.06,South,Credit Card
+ORD-10283,2025-10-02,CUST-0073,Customer 73,Electronics,Headphones,4,46.16,147.71,0.2,27.8,East,Cash
+ORD-10284,2025-10-02,CUST-0047,Customer 47,Accessories,Phone Case,4,27.36,98.5,0.1,36.82,West,Credit Card
+ORD-10285,2025-11-04,CUST-0089,Customer 89,Electronics,Laptop,6,728.07,4368.42,0.0,878.06,South,Credit Card
+ORD-10286,2025-09-21,CUST-0002,Customer 2,Electronics,Monitor,1,413.23,392.57,0.05,70.79,East,Bank Transfer
+ORD-10287,2025-02-04,CUST-0011,Customer 11,Accessories,Phone Case,6,155.18,884.53,0.05,343.28,West,Bank Transfer
+ORD-10288,2025-07-20,CUST-0061,Customer 61,Office Supplies,Notebook,1,54.53,46.35,0.15,19.17,North,Bank Transfer
+ORD-10289,2025-03-17,CUST-0046,Customer 46,Office Supplies,Stapler,7,13.59,90.37,0.05,39.32,South,Bank Transfer
+ORD-10290,2025-06-06,CUST-0051,Customer 51,Office Supplies,Stapler,4,55.08,220.32,0.0,95.39,West,Bank Transfer
+ORD-10291,2025-07-13,CUST-0088,Customer 88,Accessories,Phone Case,2,89.34,142.94,0.2,54.59,South,Credit Card
+ORD-10292,2025-09-25,CUST-0006,Customer 6,Electronics,Keyboard,2,1091.17,2182.34,0.0,427.54,North,Bank Transfer
+ORD-10293,2025-05-22,CUST-0035,Customer 35,Furniture,Bookshelf,5,347.77,1564.96,0.1,459.93,North,Credit Card
+ORD-10294,2025-12-19,CUST-0090,Customer 90,Electronics,Headphones,7,968.04,6098.65,0.1,1186.92,East,Credit Card
+ORD-10295,2025-11-01,CUST-0041,Customer 41,Furniture,Sofa,1,106.27,100.96,0.05,29.76,North,Bank Transfer
+ORD-10296,2025-11-29,CUST-0046,Customer 46,Office Supplies,Pen Set,5,33.38,158.56,0.05,67.81,West,Bank Transfer
+ORD-10297,2025-08-28,CUST-0033,Customer 33,Office Supplies,Stapler,5,58.32,233.28,0.2,97.59,North,Mobile Banking
+ORD-10298,2025-08-03,CUST-0049,Customer 49,Electronics,Keyboard,7,1049.13,7343.91,0.0,1395.65,North,Cash
+ORD-10299,2025-08-27,CUST-0028,Customer 28,Electronics,Headphones,4,1082.88,4114.94,0.05,824.5,North,Debit Card
+ORD-10300,2025-07-21,CUST-0066,Customer 66,Office Supplies,Notebook,3,48.71,146.13,0.0,61.51,South,Credit Card
+ORD-10301,2025-09-16,CUST-0084,Customer 84,Office Supplies,Stapler,6,12.28,62.63,0.15,27.43,West,Debit Card
+ORD-10302,2025-08-23,CUST-0065,Customer 65,Electronics,Monitor,7,703.21,4922.47,0.0,1015.55,North,Credit Card
+ORD-10303,2025-10-21,CUST-0028,Customer 28,Office Supplies,Notebook,5,56.32,267.52,0.05,112.31,East,Credit Card
+ORD-10304,2025-01-30,CUST-0060,Customer 60,Electronics,Smartphone,4,963.1,3274.54,0.15,603.41,East,Credit Card
+ORD-10305,2025-02-17,CUST-0032,Customer 32,Furniture,Bookshelf,2,277.94,555.88,0.0,165.77,West,Debit Card
+ORD-10306,2025-01-07,CUST-0068,Customer 68,Electronics,Keyboard,5,1070.86,5086.58,0.05,1044.61,North,Debit Card
+ORD-10307,2025-05-06,CUST-0011,Customer 11,Office Supplies,Stapler,1,10.8,9.18,0.15,3.89,West,Cash
+ORD-10308,2025-01-31,CUST-0004,Customer 4,Office Supplies,Notebook,1,13.82,13.13,0.05,5.77,East,Mobile Banking
+ORD-10309,2025-06-03,CUST-0027,Customer 27,Accessories,Phone Case,6,13.32,75.92,0.05,29.24,South,Mobile Banking
+ORD-10310,2025-01-30,CUST-0042,Customer 42,Electronics,Keyboard,5,1006.69,4781.78,0.05,950.41,East,Cash
+ORD-10311,2025-10-12,CUST-0077,Customer 77,Accessories,Backpack,3,173.32,493.96,0.05,186.93,West,Cash
+ORD-10312,2025-11-01,CUST-0013,Customer 13,Accessories,Backpack,2,36.95,73.9,0.0,26.96,East,Debit Card
+ORD-10313,2025-02-20,CUST-0113,Customer 113,Accessories,Webcam,5,66.9,334.5,0.0,120.76,East,Cash
+ORD-10314,2025-10-07,CUST-0099,Customer 99,Electronics,Monitor,5,760.83,3613.94,0.05,715.37,North,Mobile Banking
+ORD-10315,2025-06-01,CUST-0019,Customer 19,Accessories,Backpack,5,133.7,668.5,0.0,243.62,North,Cash
+ORD-10316,2025-04-27,CUST-0098,Customer 98,Accessories,USB Cable,3,68.8,196.08,0.05,76.25,South,Mobile Banking
+ORD-10317,2025-07-03,CUST-0020,Customer 20,Furniture,Sofa,1,617.65,525.0,0.15,160.41,East,Debit Card
+ORD-10318,2025-11-04,CUST-0096,Customer 96,Accessories,Phone Case,6,109.26,622.78,0.05,237.54,North,Mobile Banking
+ORD-10319,2025-08-30,CUST-0081,Customer 81,Furniture,Office Chair,3,629.28,1793.45,0.05,532.11,East,Cash
+ORD-10320,2025-02-17,CUST-0073,Customer 73,Accessories,USB Cable,4,8.54,30.74,0.1,11.71,West,Mobile Banking
+ORD-10321,2025-11-21,CUST-0013,Customer 13,Electronics,Headphones,7,761.25,4529.44,0.15,948.58,West,Bank Transfer
+ORD-10322,2025-02-23,CUST-0010,Customer 10,Electronics,Headphones,2,768.24,1382.83,0.1,256.39,North,Mobile Banking
+ORD-10323,2025-08-10,CUST-0047,Customer 47,Electronics,Laptop,3,1197.44,3233.09,0.1,598.59,East,Mobile Banking
+ORD-10324,2025-02-06,CUST-0001,Customer 1,Office Supplies,Notebook,7,14.0,88.2,0.1,36.77,West,Credit Card
+ORD-10325,2025-02-04,CUST-0066,Customer 66,Office Supplies,Stapler,7,9.82,65.3,0.05,28.58,West,Cash
+ORD-10326,2025-12-21,CUST-0072,Customer 72,Furniture,Bookshelf,3,453.5,1224.45,0.1,353.95,North,Bank Transfer
+ORD-10327,2025-05-25,CUST-0119,Customer 119,Electronics,Smartphone,2,958.56,1725.41,0.1,359.74,South,Debit Card
+ORD-10328,2025-10-17,CUST-0039,Customer 39,Furniture,Table Lamp,3,568.33,1449.24,0.15,431.65,East,Bank Transfer
+ORD-10329,2025-08-21,CUST-0030,Customer 30,Office Supplies,Notebook,5,5.59,27.95,0.0,11.95,North,Credit Card
+ORD-10330,2025-01-10,CUST-0100,Customer 100,Office Supplies,Printer Paper,6,8.53,46.06,0.1,19.93,West,Cash
+ORD-10331,2025-07-24,CUST-0059,Customer 59,Electronics,Monitor,7,871.77,5797.27,0.05,1189.84,South,Debit Card
+ORD-10332,2025-12-27,CUST-0076,Customer 76,Accessories,USB Cable,1,62.62,62.62,0.0,23.46,South,Debit Card
+ORD-10333,2025-12-09,CUST-0088,Customer 88,Electronics,Laptop,2,573.69,1090.01,0.05,198.15,West,Bank Transfer
+ORD-10334,2025-03-06,CUST-0107,Customer 107,Accessories,Backpack,3,105.18,268.21,0.15,100.0,South,Mobile Banking
+ORD-10335,2025-07-17,CUST-0112,Customer 112,Furniture,Office Chair,4,482.34,1929.36,0.0,595.65,North,Credit Card
+ORD-10336,2025-04-30,CUST-0055,Customer 55,Accessories,Backpack,2,31.93,63.86,0.0,23.23,North,Credit Card
+ORD-10337,2025-09-30,CUST-0068,Customer 68,Electronics,Headphones,7,1134.18,7939.26,0.0,1554.01,East,Cash
+ORD-10338,2025-04-11,CUST-0118,Customer 118,Accessories,Backpack,7,94.07,625.57,0.05,235.38,South,Mobile Banking
+ORD-10339,2025-01-13,CUST-0082,Customer 82,Electronics,Monitor,5,991.06,4212.0,0.15,857.73,North,Mobile Banking
+ORD-10340,2025-04-10,CUST-0109,Customer 109,Office Supplies,Notebook,7,49.8,348.6,0.0,151.96,East,Cash
+ORD-10341,2025-11-22,CUST-0108,Customer 108,Office Supplies,Stapler,4,33.43,120.35,0.1,52.23,West,Bank Transfer
+ORD-10342,2025-01-13,CUST-0057,Customer 57,Electronics,Headphones,1,156.03,148.23,0.05,29.94,North,Debit Card
+ORD-10343,2025-04-12,CUST-0024,Customer 24,Electronics,Keyboard,2,47.71,95.42,0.0,18.85,North,Mobile Banking
+ORD-10344,2025-09-25,CUST-0054,Customer 54,Furniture,Office Chair,4,36.65,139.27,0.05,39.15,West,Debit Card
+ORD-10345,2025-04-29,CUST-0028,Customer 28,Office Supplies,Stapler,7,19.93,139.51,0.0,57.8,South,Bank Transfer
+ORD-10346,2025-06-11,CUST-0037,Customer 37,Electronics,Laptop,6,536.72,3059.3,0.05,611.08,East,Debit Card
+ORD-10347,2025-05-06,CUST-0012,Customer 12,Electronics,Laptop,3,804.03,2291.49,0.05,420.77,East,Credit Card
+ORD-10348,2025-08-05,CUST-0120,Customer 120,Furniture,Office Chair,5,296.66,1409.14,0.05,434.06,North,Bank Transfer
+ORD-10349,2025-07-24,CUST-0079,Customer 79,Electronics,Monitor,4,581.73,2326.92,0.0,421.79,North,Bank Transfer
+ORD-10350,2025-11-27,CUST-0015,Customer 15,Furniture,Table Lamp,4,550.54,2202.16,0.0,634.73,East,Debit Card
+ORD-10351,2025-10-28,CUST-0083,Customer 83,Accessories,Backpack,3,176.84,503.99,0.05,182.85,East,Cash
+ORD-10352,2025-02-18,CUST-0047,Customer 47,Office Supplies,Notebook,4,28.98,104.33,0.1,44.22,East,Credit Card
+ORD-10353,2025-08-29,CUST-0114,Customer 114,Office Supplies,Printer Paper,5,41.29,206.45,0.0,90.56,North,Debit Card
+ORD-10354,2025-01-15,CUST-0096,Customer 96,Electronics,Smartphone,5,1140.16,4560.64,0.2,872.78,South,Debit Card
+ORD-10355,2025-08-11,CUST-0094,Customer 94,Furniture,Sofa,3,141.05,401.99,0.05,122.09,East,Cash
+ORD-10356,2025-11-29,CUST-0050,Customer 50,Accessories,USB Cable,3,75.4,203.58,0.1,78.73,West,Mobile Banking
+ORD-10357,2025-03-31,CUST-0062,Customer 62,Furniture,Bookshelf,1,176.81,167.97,0.05,47.44,East,Debit Card
+ORD-10358,2025-04-18,CUST-0115,Customer 115,Accessories,Phone Case,5,164.16,697.68,0.15,252.0,North,Debit Card
+ORD-10359,2025-12-28,CUST-0008,Customer 8,Accessories,Webcam,6,131.55,789.3,0.0,292.66,East,Credit Card
+ORD-10360,2025-12-08,CUST-0093,Customer 93,Electronics,Smartphone,6,733.6,3741.36,0.15,697.64,West,Cash
+ORD-10361,2025-08-04,CUST-0042,Customer 42,Electronics,Headphones,4,234.02,889.28,0.05,165.19,South,Bank Transfer
+ORD-10362,2025-12-30,CUST-0013,Customer 13,Electronics,Keyboard,5,164.24,821.2,0.0,162.65,East,Debit Card
+ORD-10363,2025-04-03,CUST-0071,Customer 71,Accessories,Backpack,1,117.3,117.3,0.0,45.63,East,Credit Card
+ORD-10364,2025-07-25,CUST-0017,Customer 17,Furniture,Desk,2,694.94,1320.39,0.05,386.59,South,Cash
+ORD-10365,2025-02-27,CUST-0026,Customer 26,Accessories,Backpack,5,175.59,877.95,0.0,320.28,North,Credit Card
+ORD-10366,2025-10-05,CUST-0098,Customer 98,Electronics,Laptop,5,289.25,1373.94,0.05,258.88,West,Mobile Banking
+ORD-10367,2025-10-09,CUST-0115,Customer 115,Furniture,Table Lamp,3,126.36,360.13,0.05,101.88,South,Bank Transfer
+ORD-10368,2025-10-06,CUST-0106,Customer 106,Furniture,Table Lamp,4,363.35,1453.4,0.0,424.78,North,Mobile Banking
+ORD-10369,2025-11-20,CUST-0015,Customer 15,Office Supplies,Stapler,3,42.03,119.79,0.05,49.79,West,Bank Transfer
+ORD-10370,2025-01-24,CUST-0024,Customer 24,Office Supplies,File Folder,2,66.51,126.37,0.05,53.85,North,Cash
+ORD-10371,2025-12-17,CUST-0053,Customer 53,Furniture,Sofa,6,386.45,2086.83,0.1,643.08,South,Bank Transfer
+ORD-10372,2025-11-13,CUST-0084,Customer 84,Office Supplies,File Folder,3,70.97,212.91,0.0,92.46,West,Mobile Banking
+ORD-10373,2025-12-09,CUST-0058,Customer 58,Office Supplies,Notebook,2,72.0,122.4,0.15,52.93,East,Credit Card
+ORD-10374,2025-02-16,CUST-0118,Customer 118,Electronics,Headphones,4,1182.21,4255.96,0.1,843.55,North,Credit Card
+ORD-10375,2025-07-21,CUST-0032,Customer 32,Furniture,Desk,3,210.24,599.18,0.05,180.91,West,Debit Card
+ORD-10376,2025-11-20,CUST-0048,Customer 48,Furniture,Office Chair,4,453.55,1814.2,0.0,531.92,North,Credit Card
+ORD-10377,2025-10-19,CUST-0081,Customer 81,Office Supplies,Pen Set,1,37.56,37.56,0.0,16.32,East,Mobile Banking
+ORD-10378,2025-06-16,CUST-0057,Customer 57,Accessories,Mouse,1,13.31,13.31,0.0,5.13,South,Cash
+ORD-10379,2025-12-03,CUST-0063,Customer 63,Accessories,USB Cable,1,133.05,119.75,0.1,43.3,North,Credit Card
+ORD-10380,2025-02-01,CUST-0096,Customer 96,Furniture,Table Lamp,4,287.52,1150.08,0.0,327.58,West,Debit Card
+ORD-10381,2025-07-08,CUST-0119,Customer 119,Office Supplies,Printer Paper,4,46.04,174.95,0.05,73.27,North,Credit Card
+ORD-10382,2025-07-12,CUST-0069,Customer 69,Furniture,Sofa,3,353.12,1059.36,0.0,297.84,South,Mobile Banking
+ORD-10383,2025-02-12,CUST-0074,Customer 74,Accessories,USB Cable,1,35.05,33.3,0.05,12.7,West,Mobile Banking
+ORD-10384,2025-04-24,CUST-0016,Customer 16,Furniture,Bookshelf,7,637.08,4459.56,0.0,1292.29,West,Credit Card
+ORD-10385,2025-11-27,CUST-0005,Customer 5,Furniture,Sofa,3,305.81,779.82,0.15,231.67,West,Bank Transfer
+ORD-10386,2025-02-02,CUST-0062,Customer 62,Electronics,Headphones,2,533.5,960.3,0.1,192.09,South,Cash
+ORD-10387,2025-07-01,CUST-0007,Customer 7,Accessories,Phone Case,7,27.98,176.27,0.1,64.59,North,Cash
+ORD-10388,2025-11-15,CUST-0074,Customer 74,Electronics,Smartphone,1,1176.93,1176.93,0.0,228.84,North,Debit Card
+ORD-10389,2025-11-14,CUST-0041,Customer 41,Accessories,Webcam,5,40.65,182.92,0.1,70.22,North,Cash
+ORD-10390,2025-09-23,CUST-0098,Customer 98,Electronics,Headphones,1,894.69,805.22,0.1,155.82,South,Debit Card
+ORD-10391,2025-06-06,CUST-0111,Customer 111,Office Supplies,Pen Set,6,8.26,47.08,0.05,19.73,East,Cash
+ORD-10392,2025-11-05,CUST-0034,Customer 34,Electronics,Smartphone,6,1158.89,6953.34,0.0,1319.18,North,Credit Card
+ORD-10393,2025-09-15,CUST-0029,Customer 29,Furniture,Bookshelf,4,664.31,2657.24,0.0,811.4,East,Mobile Banking
+ORD-10394,2025-09-05,CUST-0022,Customer 22,Office Supplies,File Folder,4,56.99,205.16,0.1,87.76,North,Bank Transfer
+ORD-10395,2025-05-17,CUST-0036,Customer 36,Office Supplies,Notebook,3,76.73,218.68,0.05,90.71,South,Credit Card
+ORD-10396,2025-02-23,CUST-0050,Customer 50,Furniture,Bookshelf,3,626.34,1879.02,0.0,536.99,East,Cash
+ORD-10397,2025-09-05,CUST-0092,Customer 92,Furniture,Office Chair,1,396.41,356.77,0.1,103.1,North,Credit Card
+ORD-10398,2025-02-16,CUST-0063,Customer 63,Accessories,Phone Case,1,44.88,44.88,0.0,17.17,West,Mobile Banking
+ORD-10399,2025-11-14,CUST-0058,Customer 58,Furniture,Bookshelf,1,480.82,480.82,0.0,135.33,South,Debit Card
+ORD-10400,2025-06-13,CUST-0059,Customer 59,Accessories,USB Cable,7,101.61,711.27,0.0,264.23,North,Mobile Banking
+ORD-10401,2025-07-28,CUST-0073,Customer 73,Furniture,Bookshelf,5,421.58,2002.5,0.05,604.62,West,Credit Card
+ORD-10402,2025-12-04,CUST-0056,Customer 56,Accessories,Backpack,3,86.15,232.6,0.1,88.98,West,Debit Card
+ORD-10403,2025-09-09,CUST-0107,Customer 107,Furniture,Desk,5,555.27,2637.53,0.05,778.07,West,Mobile Banking
+ORD-10404,2025-09-17,CUST-0086,Customer 86,Office Supplies,File Folder,7,7.33,48.74,0.05,20.09,East,Credit Card
+ORD-10405,2025-05-01,CUST-0001,Customer 1,Office Supplies,Printer Paper,6,15.28,91.68,0.0,40.15,South,Cash
+ORD-10406,2025-04-19,CUST-0047,Customer 47,Office Supplies,Pen Set,4,37.36,127.02,0.15,55.86,West,Cash
+ORD-10407,2025-01-23,CUST-0025,Customer 25,Furniture,Desk,5,527.5,2637.5,0.0,748.58,North,Bank Transfer
+ORD-10408,2025-06-26,CUST-0106,Customer 106,Electronics,Smartphone,2,1130.82,1922.39,0.15,397.79,North,Mobile Banking
+ORD-10409,2025-04-28,CUST-0005,Customer 5,Accessories,Backpack,2,160.11,304.21,0.05,114.43,South,Credit Card
+ORD-10410,2025-10-12,CUST-0111,Customer 111,Electronics,Laptop,5,508.03,2286.14,0.1,453.7,West,Bank Transfer
+ORD-10411,2025-05-14,CUST-0108,Customer 108,Electronics,Keyboard,2,373.72,710.07,0.05,141.76,South,Mobile Banking
+ORD-10412,2025-05-02,CUST-0010,Customer 10,Office Supplies,Pen Set,7,11.11,77.77,0.0,33.01,West,Mobile Banking
+ORD-10413,2025-04-28,CUST-0015,Customer 15,Electronics,Headphones,6,1152.84,6225.34,0.1,1203.32,East,Credit Card
+ORD-10414,2025-07-14,CUST-0074,Customer 74,Furniture,Bookshelf,7,534.91,3744.37,0.0,1123.96,North,Credit Card
+ORD-10415,2025-02-17,CUST-0049,Customer 49,Office Supplies,File Folder,5,12.02,57.1,0.05,24.88,South,Credit Card
+ORD-10416,2025-10-09,CUST-0049,Customer 49,Electronics,Keyboard,3,265.07,755.45,0.05,149.14,North,Credit Card
+ORD-10417,2025-09-10,CUST-0003,Customer 3,Accessories,USB Cable,7,160.33,1122.31,0.0,413.64,West,Credit Card
+ORD-10418,2025-04-30,CUST-0056,Customer 56,Office Supplies,Notebook,1,38.81,32.99,0.15,14.31,West,Mobile Banking
+ORD-10419,2025-12-05,CUST-0019,Customer 19,Electronics,Keyboard,2,500.37,950.7,0.05,199.27,South,Credit Card
+ORD-10420,2025-02-17,CUST-0066,Customer 66,Accessories,USB Cable,6,90.43,542.58,0.0,199.51,East,Cash
+ORD-10421,2025-06-22,CUST-0082,Customer 82,Furniture,Office Chair,2,373.96,598.34,0.2,181.33,North,Mobile Banking
+ORD-10422,2025-12-05,CUST-0003,Customer 3,Electronics,Headphones,6,881.85,4761.99,0.1,899.07,West,Mobile Banking
+ORD-10423,2025-05-02,CUST-0095,Customer 95,Electronics,Headphones,3,1116.91,3183.19,0.05,589.08,West,Credit Card
+ORD-10424,2025-11-13,CUST-0120,Customer 120,Electronics,Monitor,7,82.17,517.67,0.1,102.09,South,Bank Transfer
+ORD-10425,2025-07-28,CUST-0099,Customer 99,Furniture,Desk,5,168.85,759.82,0.1,226.73,West,Credit Card
+ORD-10426,2025-08-03,CUST-0095,Customer 95,Electronics,Keyboard,3,533.97,1441.72,0.1,265.89,North,Debit Card
+ORD-10427,2025-09-26,CUST-0011,Customer 11,Electronics,Keyboard,6,478.8,2585.52,0.1,528.58,North,Mobile Banking
+ORD-10428,2025-05-18,CUST-0044,Customer 44,Accessories,Phone Case,3,40.32,120.96,0.0,44.65,West,Mobile Banking
+ORD-10429,2025-11-14,CUST-0096,Customer 96,Accessories,Mouse,1,54.77,49.29,0.1,18.83,South,Mobile Banking
+ORD-10430,2025-06-22,CUST-0096,Customer 96,Office Supplies,Notebook,4,38.66,154.64,0.0,65.0,East,Debit Card
+ORD-10431,2025-10-06,CUST-0119,Customer 119,Office Supplies,Stapler,6,63.58,343.33,0.1,143.36,North,Cash
+ORD-10432,2025-03-04,CUST-0022,Customer 22,Electronics,Keyboard,6,512.91,2615.84,0.15,484.64,West,Debit Card
+ORD-10433,2025-02-25,CUST-0110,Customer 110,Office Supplies,Notebook,3,42.59,114.99,0.1,49.09,North,Debit Card
+ORD-10434,2025-07-01,CUST-0038,Customer 38,Accessories,USB Cable,3,179.81,512.46,0.05,188.36,West,Bank Transfer
+ORD-10435,2025-12-13,CUST-0035,Customer 35,Accessories,Webcam,7,14.94,99.35,0.05,38.36,West,Mobile Banking
+ORD-10436,2025-10-31,CUST-0117,Customer 117,Electronics,Headphones,3,43.5,130.5,0.0,23.82,North,Cash
+ORD-10437,2025-12-21,CUST-0003,Customer 3,Electronics,Headphones,5,1040.71,4683.2,0.1,901.85,North,Bank Transfer
+ORD-10438,2025-03-15,CUST-0061,Customer 61,Office Supplies,Pen Set,3,47.57,128.44,0.1,53.17,East,Debit Card
+ORD-10439,2025-07-10,CUST-0059,Customer 59,Electronics,Keyboard,5,1194.87,4779.48,0.2,910.56,North,Debit Card
+ORD-10440,2025-01-14,CUST-0075,Customer 75,Office Supplies,Notebook,3,67.13,191.32,0.05,79.22,West,Mobile Banking
+ORD-10441,2025-12-09,CUST-0041,Customer 41,Electronics,Keyboard,3,844.13,2279.15,0.1,459.8,East,Credit Card
+ORD-10442,2025-07-12,CUST-0015,Customer 15,Office Supplies,Stapler,4,6.26,22.54,0.1,9.61,South,Debit Card
+ORD-10443,2025-02-28,CUST-0043,Customer 43,Electronics,Laptop,7,1009.83,6008.49,0.15,1088.57,East,Cash
+ORD-10444,2025-11-18,CUST-0037,Customer 37,Furniture,Sofa,1,215.6,183.26,0.15,53.6,West,Cash
+ORD-10445,2025-01-08,CUST-0029,Customer 29,Electronics,Monitor,2,124.36,223.85,0.1,41.09,West,Mobile Banking
+ORD-10446,2025-08-27,CUST-0056,Customer 56,Electronics,Keyboard,3,891.48,2674.44,0.0,497.23,East,Mobile Banking
+ORD-10447,2025-08-27,CUST-0095,Customer 95,Electronics,Smartphone,7,752.32,4476.3,0.15,835.83,South,Cash
+ORD-10448,2025-04-29,CUST-0012,Customer 12,Electronics,Keyboard,1,811.44,689.72,0.15,138.51,South,Mobile Banking
+ORD-10449,2025-02-27,CUST-0034,Customer 34,Office Supplies,Stapler,3,39.12,117.36,0.0,51.28,West,Bank Transfer
+ORD-10450,2025-05-06,CUST-0040,Customer 40,Furniture,Sofa,4,216.51,779.44,0.1,234.0,West,Bank Transfer
+ORD-10451,2025-05-18,CUST-0039,Customer 39,Electronics,Monitor,4,442.5,1593.0,0.1,331.54,North,Debit Card
+ORD-10452,2025-06-15,CUST-0088,Customer 88,Accessories,Mouse,7,54.67,382.69,0.0,139.73,East,Cash
+ORD-10453,2025-07-11,CUST-0102,Customer 102,Office Supplies,File Folder,2,41.92,83.84,0.0,35.32,West,Cash
+ORD-10454,2025-03-06,CUST-0119,Customer 119,Furniture,Office Chair,7,235.33,1400.21,0.15,431.67,West,Debit Card
+ORD-10455,2025-03-30,CUST-0048,Customer 48,Furniture,Sofa,2,477.03,858.65,0.1,243.97,East,Bank Transfer
+ORD-10456,2025-02-09,CUST-0020,Customer 20,Accessories,Backpack,2,41.57,78.98,0.05,29.04,East,Cash
+ORD-10457,2025-11-23,CUST-0099,Customer 99,Furniture,Bookshelf,2,112.57,202.63,0.1,60.29,West,Bank Transfer
+ORD-10458,2025-08-17,CUST-0006,Customer 6,Accessories,Backpack,3,134.63,383.7,0.05,139.63,South,Cash
+ORD-10459,2025-11-29,CUST-0032,Customer 32,Accessories,Backpack,3,32.29,87.18,0.1,33.52,South,Mobile Banking
+ORD-10460,2025-09-03,CUST-0098,Customer 98,Electronics,Keyboard,6,734.52,3966.41,0.1,766.46,South,Credit Card
+ORD-10461,2025-09-13,CUST-0059,Customer 59,Office Supplies,Pen Set,4,45.87,155.96,0.15,64.9,South,Cash
+ORD-10462,2025-10-14,CUST-0085,Customer 85,Office Supplies,Notebook,2,43.19,77.74,0.1,32.45,North,Debit Card
+ORD-10463,2025-07-24,CUST-0081,Customer 81,Office Supplies,Stapler,6,23.43,126.52,0.1,54.91,West,Debit Card
+ORD-10464,2025-04-19,CUST-0023,Customer 23,Electronics,Headphones,6,741.68,3782.57,0.15,705.17,North,Bank Transfer
+ORD-10465,2025-07-08,CUST-0016,Customer 16,Furniture,Office Chair,7,356.47,2370.53,0.05,692.41,East,Bank Transfer
+ORD-10466,2025-08-26,CUST-0094,Customer 94,Office Supplies,File Folder,2,16.14,32.28,0.0,14.01,East,Credit Card
+ORD-10467,2025-05-23,CUST-0073,Customer 73,Furniture,Table Lamp,4,371.6,1412.08,0.05,435.62,West,Credit Card
+ORD-10468,2025-07-01,CUST-0111,Customer 111,Accessories,Backpack,1,144.91,130.42,0.1,50.02,West,Cash
+ORD-10469,2025-03-13,CUST-0027,Customer 27,Office Supplies,Notebook,6,56.56,305.42,0.1,132.55,East,Mobile Banking
+ORD-10470,2025-08-09,CUST-0085,Customer 85,Furniture,Office Chair,5,589.49,2505.33,0.15,749.15,South,Bank Transfer
+ORD-10471,2025-11-06,CUST-0072,Customer 72,Office Supplies,Pen Set,1,24.78,23.54,0.05,10.15,North,Mobile Banking
+ORD-10472,2025-12-25,CUST-0028,Customer 28,Electronics,Headphones,3,743.47,2007.37,0.1,402.42,South,Bank Transfer
+ORD-10473,2025-08-02,CUST-0090,Customer 90,Accessories,Phone Case,1,56.44,45.15,0.2,17.59,West,Credit Card
+ORD-10474,2025-03-24,CUST-0058,Customer 58,Office Supplies,Stapler,4,29.18,116.72,0.0,49.81,North,Debit Card
+ORD-10475,2025-07-27,CUST-0114,Customer 114,Electronics,Laptop,4,258.23,1032.92,0.0,209.48,West,Cash
+ORD-10476,2025-01-25,CUST-0034,Customer 34,Electronics,Keyboard,3,314.82,897.24,0.05,170.6,South,Cash
+ORD-10477,2025-07-30,CUST-0067,Customer 67,Office Supplies,Printer Paper,5,11.84,50.32,0.15,20.96,East,Cash
+ORD-10478,2025-10-09,CUST-0047,Customer 47,Accessories,Phone Case,2,155.25,294.97,0.05,108.34,West,Credit Card
+ORD-10479,2025-06-07,CUST-0003,Customer 3,Furniture,Desk,2,434.54,738.72,0.15,210.78,North,Bank Transfer
+ORD-10480,2025-05-23,CUST-0110,Customer 110,Furniture,Sofa,4,521.7,1878.12,0.1,549.33,South,Bank Transfer
+ORD-10481,2025-04-22,CUST-0108,Customer 108,Electronics,Headphones,7,42.83,269.83,0.1,55.81,East,Mobile Banking
+ORD-10482,2025-12-11,CUST-0052,Customer 52,Furniture,Desk,1,85.43,85.43,0.0,24.48,South,Bank Transfer
+ORD-10483,2025-02-25,CUST-0059,Customer 59,Electronics,Keyboard,5,712.47,3562.35,0.0,652.37,South,Credit Card
+ORD-10484,2025-01-30,CUST-0011,Customer 11,Office Supplies,Pen Set,4,20.18,68.61,0.15,28.56,West,Bank Transfer
+ORD-10485,2025-04-04,CUST-0073,Customer 73,Electronics,Monitor,7,1164.43,7743.46,0.05,1545.4,East,Cash
+ORD-10486,2025-10-05,CUST-0040,Customer 40,Electronics,Laptop,5,746.42,3732.1,0.0,719.07,South,Debit Card
+ORD-10487,2025-01-22,CUST-0038,Customer 38,Accessories,Backpack,3,68.34,194.77,0.05,71.25,North,Debit Card
+ORD-10488,2025-03-19,CUST-0045,Customer 45,Electronics,Laptop,6,689.68,4138.08,0.0,851.67,East,Bank Transfer
+ORD-10489,2025-09-02,CUST-0120,Customer 120,Furniture,Office Chair,3,41.23,111.32,0.1,34.25,East,Credit Card
+ORD-10490,2025-01-20,CUST-0006,Customer 6,Office Supplies,File Folder,6,53.37,288.2,0.1,123.94,North,Bank Transfer
+ORD-10491,2025-01-19,CUST-0063,Customer 63,Electronics,Monitor,3,76.75,207.22,0.1,39.49,West,Cash
+ORD-10492,2025-02-13,CUST-0104,Customer 104,Office Supplies,Printer Paper,5,36.74,156.14,0.15,64.19,East,Cash
+ORD-10493,2025-05-08,CUST-0014,Customer 14,Furniture,Desk,5,76.97,365.61,0.05,111.35,East,Cash
+ORD-10494,2025-12-12,CUST-0028,Customer 28,Accessories,Phone Case,5,130.14,650.7,0.0,247.57,East,Mobile Banking
+ORD-10495,2025-09-21,CUST-0071,Customer 71,Electronics,Keyboard,4,1101.79,3966.44,0.1,758.01,East,Debit Card
+ORD-10496,2025-07-16,CUST-0117,Customer 117,Electronics,Smartphone,5,492.92,2341.37,0.05,428.92,East,Bank Transfer
+ORD-10497,2025-04-18,CUST-0004,Customer 4,Electronics,Smartphone,5,1100.2,5501.0,0.0,1015.89,West,Debit Card
+ORD-10498,2025-07-21,CUST-0084,Customer 84,Furniture,Sofa,6,247.89,1487.34,0.0,448.94,East,Mobile Banking
+ORD-10499,2025-12-03,CUST-0041,Customer 41,Accessories,Phone Case,3,67.48,182.2,0.1,66.66,South,Credit Card
+ORD-10500,2025-09-08,CUST-0106,Customer 106,Furniture,Bookshelf,3,698.41,2095.23,0.0,620.63,South,Credit Card
+ORD-10501,2025-10-06,CUST-0074,Customer 74,Electronics,Laptop,3,1067.37,3042.0,0.05,593.47,East,Credit Card
