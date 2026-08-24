@@ -218,32 +218,6 @@ Based on the analysis:
 
 ---
 
-# 🧠 SQL Skills Demonstrated
-
-This project demonstrates practical SQL skills including:
-
-- SELECT
-- SUM()
-- COUNT()
-- GROUP BY
-- ORDER BY
-- LIMIT
-- WHERE
-- HAVING
-- CASE WHEN
-- Aggregate Functions
-- Subqueries
-- CTE concepts
-- Window Functions
-- RANK()
-- Running Totals
-- Date Functions
-- MONTH()
-- MONTHNAME()
-- Profit Margin Calculations
-
----
-
 # 🧮 SQL Analysis
 
 The following SQL analyses were performed using MySQL to extract meaningful business insights from the sales dataset.
@@ -339,6 +313,32 @@ FROM sales
 GROUP BY Product
 ORDER BY Total_Profit DESC
 LIMIT 10;
+
+---
+
+# 🧠 SQL Skills Demonstrated
+
+This project demonstrates practical SQL skills including:
+
+- SELECT
+- SUM()
+- COUNT()
+- GROUP BY
+- ORDER BY
+- LIMIT
+- WHERE
+- HAVING
+- CASE WHEN
+- Aggregate Functions
+- Subqueries
+- CTE concepts
+- Window Functions
+- RANK()
+- Running Totals
+- Date Functions
+- MONTH()
+- MONTHNAME()
+- Profit Margin Calculations
 
 ---
 
