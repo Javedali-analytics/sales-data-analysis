@@ -218,21 +218,6 @@ Based on the analysis:
 
 ---
 
-# 🧮 SQL Analysis
-
-The following SQL queries were used to analyze sales performance, profitability, product performance, regional performance, monthly trends, and payment methods.
-
-## 1. Overall Sales Performance
-
-SELECT from sales_analysis.csv
-    SUM(Sales) AS Total_Sales,
-    SUM(Profit) AS Total_Profit,
-    SUM(Quantity) AS Total_Quantity,
-    ROUND(SUM(Profit) / SUM(Sales) * 100, 2) AS Profit_Margin_Percent
-FROM sales;
-
----
-
 # 🧠 SQL Skills Demonstrated
 
 This project demonstrates practical SQL skills including:
