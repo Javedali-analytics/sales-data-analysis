@@ -224,7 +224,6 @@ The following SQL queries were used to analyze sales performance, profitability,
 
 ## 1. Overall Sales Performance
 
-```sql
 SELECT
     SUM(Sales) AS Total_Sales,
     SUM(Profit) AS Total_Profit,
