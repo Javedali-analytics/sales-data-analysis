@@ -68,9 +68,9 @@ The dataset contains **500 sales transactions** with information including:
 
 ## 📊 Sales Analytics Dashboard
 
-The dashboard provides an interactive overview of sales performance, profitability, product performance, regional analysis, and payment method trends.
-
 ![Sales Analytics Dashboard](images/sales_analytics_dashboard.png)
+
+The dashboard provides an interactive overview of sales performance, profitability, product performance, regional analysis, and payment method trends.
 
 ---
 
