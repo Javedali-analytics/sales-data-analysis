@@ -220,7 +220,7 @@ Based on the analysis:
 
 # 🧮 SQL Analysis
 
-The following SQL analyses were performed using MySQL to extract meaningful business insights from the sales dataset.
+The following SQL queries were used to analyze sales performance, profitability, product performance, regional performance, monthly trends, and payment methods.
 
 ## 1. Overall Sales Performance
 
@@ -231,76 +231,6 @@ SELECT
     SUM(Quantity) AS Total_Quantity,
     ROUND(SUM(Profit) / SUM(Sales) * 100, 2) AS Profit_Margin_Percent
 FROM sales;
-
-SELECT
-    Category,
-    SUM(Sales) AS Total_Sales
-FROM sales
-GROUP BY Category
-ORDER BY Total_Sales DESC;
-
-SELECT
-    Region,
-    SUM(Profit) AS Total_Profit
-FROM sales
-GROUP BY Region
-ORDER BY Total_Profit DESC;
-
-SELECT
-    MONTH(Order_Date) AS Month_Number,
-    MONTHNAME(Order_Date) AS Month_Name,
-    SUM(Sales) AS Total_Sales,
-    SUM(Profit) AS Total_Profit
-FROM sales
-GROUP BY
-    MONTH(Order_Date),
-    MONTHNAME(Order_Date)
-ORDER BY Month_Number;
-
-SELECT
-    Product,
-    SUM(Sales) AS Total_Sales,
-    SUM(Profit) AS Total_Profit
-FROM sales
-GROUP BY Product
-ORDER BY Total_Sales DESC
-LIMIT 10;
-
-SELECT
-    Payment_Method,
-    COUNT(*) AS Total_Orders,
-    SUM(Sales) AS Total_Sales,
-    SUM(Profit) AS Total_Profit
-FROM sales
-GROUP BY Payment_Method
-ORDER BY Total_Sales DESC;
-
-
-SELECT
-    Category,
-    SUM(Sales) AS Total_Sales,
-    SUM(Profit) AS Total_Profit,
-    ROUND(
-        SUM(Profit) / SUM(Sales) * 100,
-        2
-    ) AS Profit_Margin_Percent
-FROM sales
-GROUP BY Category
-ORDER BY Profit_Margin_Percent DESC;
-
-
-SELECT
-    Product,
-    SUM(Sales) AS Total_Sales,
-    SUM(Profit) AS Total_Profit,
-    ROUND(
-        SUM(Profit) / SUM(Sales) * 100,
-        2
-    ) AS Profit_Margin_Percent
-FROM sales
-GROUP BY Product
-ORDER BY Total_Profit DESC
-LIMIT 10;
 
 ---
 
