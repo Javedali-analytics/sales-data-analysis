@@ -232,8 +232,6 @@ SELECT
     ROUND(SUM(Profit) / SUM(Sales) * 100, 2) AS Profit_Margin_Percent
 FROM sales;
 
----
-
 SELECT
     Category,
     SUM(Sales) AS Total_Sales
@@ -241,16 +239,12 @@ FROM sales
 GROUP BY Category
 ORDER BY Total_Sales DESC;
 
----
-
 SELECT
     Region,
     SUM(Profit) AS Total_Profit
 FROM sales
 GROUP BY Region
 ORDER BY Total_Profit DESC;
-
----
 
 SELECT
     MONTH(Order_Date) AS Month_Number,
@@ -263,8 +257,6 @@ GROUP BY
     MONTHNAME(Order_Date)
 ORDER BY Month_Number;
 
----
-
 SELECT
     Product,
     SUM(Sales) AS Total_Sales,
@@ -273,8 +265,6 @@ FROM sales
 GROUP BY Product
 ORDER BY Total_Sales DESC
 LIMIT 10;
-
----
 
 SELECT
     Payment_Method,
@@ -285,7 +275,6 @@ FROM sales
 GROUP BY Payment_Method
 ORDER BY Total_Sales DESC;
 
----
 
 SELECT
     Category,
@@ -299,7 +288,6 @@ FROM sales
 GROUP BY Category
 ORDER BY Profit_Margin_Percent DESC;
 
----
 
 SELECT
     Product,
