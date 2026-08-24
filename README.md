@@ -244,8 +244,6 @@ This project demonstrates practical SQL skills including:
 
 ---
 
----
-
 # 🧮 SQL Analysis
 
 The following SQL analyses were performed using MySQL to extract meaningful business insights from the sales dataset.
