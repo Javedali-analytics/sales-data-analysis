@@ -66,14 +66,6 @@ The dataset contains **500 sales transactions** with information including:
 
 ---
 
-## 📊 Sales Analytics Dashboard
-
-![Sales Analytics Dashboard](images/sales_analytics_dashboard.png)
-
-**The dashboard provides an interactive overview of sales performance, profitability, product performance, regional analysis, and payment method trends.**
-
----
-
 # 📊 Sales Analysis
 
 ## Sales by Category
@@ -249,6 +241,20 @@ This project demonstrates practical SQL skills including:
 - MONTH()
 - MONTHNAME()
 - Profit Margin Calculations
+
+---
+
+## ⭐ Conclusion
+
+This project demonstrates how raw sales transaction data can be transformed into meaningful business insights using SQL and Excel.
+
+The analysis helps identify revenue drivers, profitable categories, high-performing products, regional performance, customer behavior, and opportunities for improving business profitability.
+
+---
+
+## 📊 Sales Analytics Dashboard
+
+![Sales Analytics Dashboard](images/sales_analytics_dashboard.png)
 
 ---
 
