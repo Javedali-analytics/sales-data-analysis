@@ -218,11 +218,11 @@ Based on the analysis:
 
 ---
 
----
-
 # 🧮 SQL Analysis
 
 The following SQL queries were used to analyze sales performance, profitability, product performance, regional performance, monthly trends, and payment methods.
+
+---
 
 ## 1. Overall Sales Performance
 
@@ -233,21 +233,48 @@ SELECT
     SUM(Quantity) AS Total_Quantity,
     ROUND(SUM(Profit) / SUM(Sales) * 100, 2) AS Profit_Margin_Percent
 FROM sales;
+```
 
+**Business Insight:**
+The business generated **653,868.08** in total sales and **148,788.65** in total profit, with an overall profit margin of **22.76%**.
+
+---
+
+## 2. Sales by Category
+
+```sql
 SELECT
     Category,
     SUM(Sales) AS Total_Sales
 FROM sales
 GROUP BY Category
 ORDER BY Total_Sales DESC;
+```
 
+**Business Insight:**
+**Electronics** generated the highest sales among all categories.
+
+---
+
+## 3. Profit by Region
+
+```sql
 SELECT
     Region,
     SUM(Profit) AS Total_Profit
 FROM sales
 GROUP BY Region
 ORDER BY Total_Profit DESC;
+```
 
+**Business Insight:**
+**North** generated the highest regional profit.
+
+---
+
+## 4. Monthly Sales & Profit Trend
+
+```sql
 SELECT
     MONTH(Order_Date) AS Month_Number,
     MONTHNAME(Order_Date) AS Month_Name,
@@ -258,7 +285,16 @@ GROUP BY
     MONTH(Order_Date),
     MONTHNAME(Order_Date)
 ORDER BY Month_Number;
+```
 
+**Business Insight:**
+**September** was the strongest-performing month in terms of both sales and profit.
+
+---
+
+## 5. Top 10 Products by Sales
+
+```sql
 SELECT
     Product,
     SUM(Sales) AS Total_Sales,
@@ -267,7 +303,16 @@ FROM sales
 GROUP BY Product
 ORDER BY Total_Sales DESC
 LIMIT 10;
+```
 
+**Business Insight:**
+**Headphones** was the highest-selling product, followed by Keyboard and Laptop.
+
+---
+
+## 6. Payment Method Analysis
+
+```sql
 SELECT
     Payment_Method,
     COUNT(*) AS Total_Orders,
@@ -276,7 +321,16 @@ SELECT
 FROM sales
 GROUP BY Payment_Method
 ORDER BY Total_Sales DESC;
+```
 
+**Business Insight:**
+**Credit Card** generated the highest sales and profit among all payment methods.
+
+---
+
+## 7. Profit Margin by Category
+
+```sql
 SELECT
     Category,
     SUM(Sales) AS Total_Sales,
@@ -288,7 +342,16 @@ SELECT
 FROM sales
 GROUP BY Category
 ORDER BY Profit_Margin_Percent DESC;
+```
 
+**Business Insight:**
+**Office Supplies** had the highest profit margin at **42.51%**, while Electronics had the lowest at **19.45%**.
+
+---
+
+## 8. Top 10 Most Profitable Products
+
+```sql
 SELECT
     Product,
     SUM(Sales) AS Total_Sales,
@@ -301,31 +364,36 @@ FROM sales
 GROUP BY Product
 ORDER BY Total_Profit DESC
 LIMIT 10;
+```
 
+**Business Insight:**
+This analysis identifies products that contribute the most total profit and helps distinguish high-volume products from highly profitable products.
+
+---
 
 # 🧠 SQL Skills Demonstrated
 
 This project demonstrates practical SQL skills including:
 
-- SELECT
-- SUM()
-- COUNT()
-- GROUP BY
-- ORDER BY
-- LIMIT
-- WHERE
-- HAVING
-- CASE WHEN
-- Aggregate Functions
-- Subqueries
-- CTE concepts
-- Window Functions
-- RANK()
-- Running Totals
-- Date Functions
-- MONTH()
-- MONTHNAME()
-- Profit Margin Calculations
+* SELECT
+* SUM()
+* COUNT()
+* GROUP BY
+* ORDER BY
+* LIMIT
+* Aggregate Functions
+* WHERE
+* HAVING
+* CASE WHEN
+* Subqueries
+* CTE concepts
+* Window Functions
+* RANK()
+* Running Totals
+* Date Functions
+* MONTH()
+* MONTHNAME()
+* Profit Margin Calculations
 
 ---
 
