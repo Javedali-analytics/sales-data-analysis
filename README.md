@@ -606,6 +606,50 @@ ORDER BY Customer_Rank;
 
 ---
 
+## 17. Customer Profit Ranking
+
+```sql
+WITH customer_profit AS (
+    SELECT
+        Customer_ID,
+        Customer_Name,
+        COUNT(*) AS Total_Orders,
+        SUM(Sales) AS Total_Sales,
+        SUM(Profit) AS Total_Profit
+    FROM sales
+    GROUP BY
+        Customer_ID,
+        Customer_Name
+),
+
+ranked_customers AS (
+    SELECT
+        Customer_ID,
+        Customer_Name,
+        Total_Orders,
+        Total_Sales,
+        Total_Profit,
+        RANK() OVER (
+            ORDER BY Total_Profit DESC
+        ) AS Profit_Rank
+    FROM customer_profit
+)
+
+SELECT
+    Customer_ID,
+    Customer_Name,
+    Total_Orders,
+    ROUND(Total_Sales, 2) AS Total_Sales,
+    ROUND(Total_Profit, 2) AS Total_Profit,
+    Profit_Rank
+FROM ranked_customers
+ORDER BY Profit_Rank;
+```
+**Business Insight:**
+**Customer 3 ranked #1 in profitability, generating 3,737.79 in total profit, despite ranking only #5 in total sales. In contrast, Customer 68 ranked #1 in sales but #3 in profit. This highlights the importance of evaluating customers based on profitability, not revenue alone, when prioritizing customer retention and high-value customer strategies.**
+
+---
+
 # 🧠 SQL Skills Demonstrated
 
 This project demonstrates practical SQL skills including:
@@ -631,6 +675,9 @@ This project demonstrates practical SQL skills including:
 * Profit Margin Calculations
 * Customer Segmentation
 * Revenue Ranking
+* Customer Profitability Analysis
+* Customer Ranking
+* Revenue vs. Profit Comparison 
 
 ---
 
