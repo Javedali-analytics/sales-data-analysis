@@ -367,7 +367,242 @@ LIMIT 10;
 ```
 
 **Business Insight:**
-This analysis identifies products that contribute the most total profit and helps distinguish high-volume products from highly profitable products.
+**This analysis identifies products that contribute the most total profit and helps distinguish high-volume products from highly profitable products.**
+
+---
+
+## 9. Product Sales Ranking
+
+```sql
+SELECT
+    Product,
+    SUM(Sales) AS Total_Sales,
+    SUM(Profit) AS Total_Profit,
+    RANK() OVER (ORDER BY SUM(Sales) DESC) AS Sales_Rank
+FROM sales
+GROUP BY Product
+ORDER BY Sales_Rank;
+```
+**Business Insight:**
+**Headphones ranked #1 in sales with 120,687.39 in total sales, followed by Keyboard and Laptop. The ranking helps identify the company's strongest revenue-generating products and supports inventory planning, promotional strategies, and product prioritization.**
+
+---
+
+## 10. Monthly Running Sales Total
+
+```sql
+WITH monthly_sales AS (
+    SELECT
+        MONTH(Order_Date) AS Month_Number,
+        MONTHNAME(Order_Date) AS Month_Name,
+        SUM(Sales) AS Monthly_Sales
+    FROM sales
+    GROUP BY
+        MONTH(Order_Date),
+        MONTHNAME(Order_Date)
+)
+
+SELECT
+    Month_Number,
+    Month_Name,
+    Monthly_Sales,
+    ROUND(
+        SUM(Monthly_Sales) OVER (
+            ORDER BY Month_Number
+        ),
+        2
+    ) AS Running_Total_Sales
+FROM monthly_sales
+ORDER BY Month_Number;
+```
+**Business Insight:**
+**The running total shows how sales accumulated throughout the year. This helps management monitor cumulative revenue growth, identify periods of strong sales acceleration, and compare performance across different periods. By the end of December, cumulative sales reached 653,868.08.**
+
+---
+
+## 11. Category Sales Contribution
+
+```sql
+SELECT
+    Category,
+    ROUND(SUM(Sales), 2) AS Total_Sales,
+    ROUND(
+        SUM(Sales) / (SELECT SUM(Sales) FROM sales) * 100,
+        2
+    ) AS Sales_Contribution_Percent
+FROM sales
+GROUP BY Category
+ORDER BY Total_Sales DESC;
+```
+**Business Insight:**
+**Electronics contributed approximately 74.21% of total sales, making it the dominant revenue category. However, this high dependence on Electronics also creates concentration risk. Furniture and other categories provide opportunities for diversification and balanced revenue growth.**
+
+---
+
+## 12. Best Product in Each Category
+
+```sql
+WITH product_sales AS (
+    SELECT
+        Category,
+        Product,
+        SUM(Sales) AS Total_Sales,
+        SUM(Profit) AS Total_Profit
+    FROM sales
+    GROUP BY Category, Product
+),
+
+ranked_products AS (
+    SELECT
+        Category,
+        Product,
+        Total_Sales,
+        Total_Profit,
+        RANK() OVER (
+            PARTITION BY Category
+            ORDER BY Total_Sales DESC
+        ) AS Product_Rank
+    FROM product_sales
+)
+
+SELECT
+    Category,
+    Product,
+    ROUND(Total_Sales, 2) AS Total_Sales,
+    ROUND(Total_Profit, 2) AS Total_Profit
+FROM ranked_products
+WHERE Product_Rank = 1
+ORDER BY Total_Sales DESC;
+```
+**Business Insight:**
+**Headphones is the top-performing product within Electronics, while Bookshelf leads Furniture. USB Cable is the strongest product in Accessories, and Notebook leads Office Supplies. These category-level leaders can be prioritized for inventory planning, targeted promotions, and product-specific sales strategies.**
+
+---
+
+## 13. Monthly Sales Ranking
+
+```sql
+WITH monthly_sales AS (
+    SELECT
+        MONTH(Order_Date) AS Month_Number,
+        MONTHNAME(Order_Date) AS Month_Name,
+        SUM(Sales) AS Total_Sales,
+        SUM(Profit) AS Total_Profit
+    FROM sales
+    GROUP BY
+        MONTH(Order_Date),
+        MONTHNAME(Order_Date)
+),
+
+ranked_months AS (
+    SELECT
+        Month_Number,
+        Month_Name,
+        Total_Sales,
+        Total_Profit,
+        RANK() OVER (
+            ORDER BY Total_Sales DESC
+        ) AS Sales_Rank
+    FROM monthly_sales
+)
+
+SELECT
+    Month_Number,
+    Month_Name,
+    ROUND(Total_Sales, 2) AS Total_Sales,
+    ROUND(Total_Profit, 2) AS Total_Profit,
+    Sales_Rank
+FROM ranked_months
+ORDER BY Sales_Rank;
+```
+**Business Insight:**
+**September ranked #1 in monthly sales with 79,740.98 in revenue and 18,240.99 in profit, while March ranked last with 29,947.83 in sales. The monthly ranking highlights strong and weak sales periods, helping management plan seasonal promotions, inventory levels, marketing campaigns, and resource allocation more effectively.**
+
+---
+
+## 14. High-Value Order Segmentation
+
+```sql
+SELECT
+    Order_ID,
+    Customer_Name,
+    Sales,
+    Profit,
+    CASE
+        WHEN Sales >= 3000 THEN 'High Value'
+        WHEN Sales >= 1500 THEN 'Medium Value'
+        ELSE 'Low Value'
+    END AS Order_Value_Segment
+FROM sales
+ORDER BY Sales DESC;
+```
+**Business Insight:**
+**Order value segmentation helps identify high-value transactions and supports targeted customer strategies, premium offers, sales prioritization, and better understanding of customer purchasing behavior.**
+
+---
+
+## 15. Customer Sales Performance
+
+```sql
+SELECT
+    Customer_ID,
+    Customer_Name,
+    COUNT(*) AS Total_Orders,
+    ROUND(SUM(Sales), 2) AS Total_Sales,
+    ROUND(SUM(Profit), 2) AS Total_Profit,
+    ROUND(AVG(Sales), 2) AS Average_Order_Value
+FROM sales
+GROUP BY
+    Customer_ID,
+    Customer_Name
+ORDER BY Total_Sales DESC;
+```
+**Business Insight:**
+**Customer 68 generated the highest total sales at 18,546.13, while Customer 3 generated the highest profit among the displayed customers at 3,737.79. Customer 98 placed the highest number of orders with 10 transactions. These insights can help the business identify high-value customers, prioritize retention efforts, and design targeted marketing strategies based on sales, profitability, and purchasing frequency.**
+
+---
+
+## 16. Customer Sales Ranking
+
+```sql
+WITH customer_sales AS (
+    SELECT
+        Customer_ID,
+        Customer_Name,
+        COUNT(*) AS Total_Orders,
+        SUM(Sales) AS Total_Sales,
+        SUM(Profit) AS Total_Profit
+    FROM sales
+    GROUP BY
+        Customer_ID,
+        Customer_Name
+),
+
+ranked_customers AS (
+    SELECT
+        Customer_ID,
+        Customer_Name,
+        Total_Orders,
+        Total_Sales,
+        Total_Profit,
+        RANK() OVER (
+            ORDER BY Total_Sales DESC
+        ) AS Customer_Rank
+    FROM customer_sales
+)
+
+SELECT
+    Customer_ID,
+    Customer_Name,
+    Total_Orders,
+    ROUND(Total_Sales, 2) AS Total_Sales,
+    ROUND(Total_Profit, 2) AS Total_Profit,
+    Customer_Rank
+FROM ranked_customers
+ORDER BY Customer_Rank;
+```
+**Business Insight:**
+**Customer 68 ranked #1 based on total sales at 18,546.13, followed by Customer 59 at 18,257.90. However, Customer 3 generated higher profit (3,737.79) than the top-ranked customer. This demonstrates that sales ranking and profitability ranking can differ, helping businesses identify customers who generate both high revenue and strong profit.**
 
 ---
 
@@ -394,6 +629,8 @@ This project demonstrates practical SQL skills including:
 * MONTH()
 * MONTHNAME()
 * Profit Margin Calculations
+* Customer Segmentation
+* Revenue Ranking
 
 ---
 
