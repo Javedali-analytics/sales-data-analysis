@@ -756,6 +756,10 @@ GROUP BY
     Customer_Name
 ORDER BY Profit_Margin_Percent DESC;
 ```
+
+**Business Insight:** 
+**Customer profit margin analysis helps identify customers who generate higher profitability relative to their sales. High-margin customers can be prioritized for retention and targeted offers, while low-margin customers can be reviewed for pricing, discounts, and purchasing patterns.**
+
 ---
 
 # 🧠 SQL Skills Demonstrated
