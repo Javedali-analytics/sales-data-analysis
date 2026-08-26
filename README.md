@@ -941,6 +941,24 @@ Overall, the analysis demonstrates how **SQL, Excel, Python, and Power BI** can 
 
 ---
 
+## 💡 Key Business Insights
+
+Based on the SQL analysis and dashboard, the following key business insights were identified:
+
+- 💰 The business generated **653,868.08** in total sales and **148,788.65** in total profit.
+- 📈 The overall profit margin was **22.76%**.
+- 🏆 **Electronics** generated the highest total sales.
+- 💎 **Office Supplies** achieved the highest profit margin at **42.51%**.
+- 📦 **Headphones** was the highest-selling product by total sales.
+- 💳 **Credit Card** generated the highest sales and profit among payment methods.
+- 🌎 **North** generated the highest regional profit.
+- 📅 **September** was the strongest month for both sales and profit.
+- 👤 Customer-level analysis identified high-value customers based on sales and profit contribution.
+- 📊 Advanced SQL analysis using **CTEs, Window Functions, RANK(), Running Totals, and Contribution Analysis** provided deeper business insights.
+
+These insights can help businesses identify high-performing products, profitable categories, valuable customers, strong sales periods, and areas requiring strategic improvement.
+
+---
 
 ## 📊 Sales Analytics Dashboard
 
