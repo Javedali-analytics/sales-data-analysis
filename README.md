@@ -929,18 +929,6 @@ The North region generated the highest profit. Identifying the strategies respon
 
 ---
 
-# 📝 Final Conclusion
-
-This sales data analysis project provides a comprehensive view of business performance across **sales, profit, products, categories, regions, customers, months, and payment methods**.
-
-The analysis shows that the business generated **653,868.08 in total sales** and **148,788.65 in total profit**, resulting in an overall profit margin of **22.76%**.
-
-Electronics was the main revenue-generating category, while Office Supplies delivered the highest profit margin. September was the strongest month, and Headphones was the top-selling product. Customer and payment-method analysis also revealed important opportunities for improving profitability and customer retention.
-
-Overall, the analysis demonstrates how **SQL, Excel, Python, and Power BI** can be combined to transform raw sales data into meaningful business insights and support data-driven decision-making.
-
----
-
 ## 💡 Key Business Insights
 
 Based on the SQL analysis and dashboard, the following key business insights were identified:
@@ -959,6 +947,29 @@ Based on the SQL analysis and dashboard, the following key business insights wer
 These insights can help businesses identify high-performing products, profitable categories, valuable customers, strong sales periods, and areas requiring strategic improvement.
 
 ---
+
+## 🛠️ Tools & Technologies
+
+- **MySQL** — Data analysis and SQL querying
+- **phpMyAdmin** — Database management and query execution
+- **SQL** — Aggregation, filtering, grouping, ranking, CTEs, window functions, and business analysis
+- **Power BI** — Interactive dashboard and data visualization
+- **Git & GitHub** — Version control and project documentation
+
+---
+
+# 📝 Final Conclusion
+
+This sales data analysis project provides a comprehensive view of business performance across **sales, profit, products, categories, regions, customers, months, and payment methods**.
+
+The analysis shows that the business generated **653,868.08 in total sales** and **148,788.65 in total profit**, resulting in an overall profit margin of **22.76%**.
+
+Electronics was the main revenue-generating category, while Office Supplies delivered the highest profit margin. September was the strongest month, and Headphones was the top-selling product. Customer and payment-method analysis also revealed important opportunities for improving profitability and customer retention.
+
+Overall, the analysis demonstrates how **SQL, Excel, Python, and Power BI** can be combined to transform raw sales data into meaningful business insights and support data-driven decision-making.
+
+---
+
 
 ## 📊 Sales Analytics Dashboard
 
