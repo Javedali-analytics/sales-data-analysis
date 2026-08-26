@@ -86,6 +86,42 @@ Business Insights & Recommendations
 
 ---
 
+## 🧠 Skills Demonstrated
+
+### 💻 Technical Skills
+
+- SQL
+- MySQL
+- Data Aggregation
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Excel Analysis
+- Python Data Analysis
+- Power BI
+- Data Visualization
+- KPI Development
+- Window Functions
+- CTEs
+- Subqueries
+- Ranking & Running Totals
+- Date-Based Analysis
+
+### 📊 Business & Analytical Skills
+
+- Sales Performance Analysis
+- Profitability Analysis
+- Product Performance Analysis
+- Category Analysis
+- Customer Segmentation & Analysis
+- Regional Performance Analysis
+- Payment Method Analysis
+- Monthly Trend Analysis
+- Customer Value Analysis
+- Business Insight Generation
+- Data-Driven Recommendations
+
+---
+
 ## 📂 Dataset
 
 The dataset contains **500 sales transactions** with information including:
