@@ -56,7 +56,7 @@ Python Analysis
 Power BI Dashboard
       ↓
 Business Insights & Recommendations
-
+```
 ---
 
 ## 🔗 Project Resources
