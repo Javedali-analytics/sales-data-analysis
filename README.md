@@ -59,6 +59,18 @@ Business Insights & Recommendations
 
 ---
 
+## 🔗 Project Resources
+
+- 📁 [SQL Queries](sql/)
+- 📊 [Excel Analysis](excel/)
+- 🐍 [Python Analysis](python/)
+- 📈 [Power BI Dashboard](powerbi/)
+- 🖼️ [Dashboard Screenshot](images/)
+- 📄 [Project Reports](reports/)
+- 🗃️ [Sales Dataset](data/)
+
+---
+
 ## 📂 Dataset
 
 The dataset contains **500 sales transactions** with information including:
