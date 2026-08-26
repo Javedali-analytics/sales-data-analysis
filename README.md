@@ -650,6 +650,27 @@ ORDER BY Profit_Rank;
 
 ---
 
+## 18. Customer Profit Margin Analysis
+
+```sql
+SELECT
+    Customer_ID,
+    Customer_Name,
+    COUNT(*) AS Total_Orders,
+    ROUND(SUM(Sales), 2) AS Total_Sales,
+    ROUND(SUM(Profit), 2) AS Total_Profit,
+    ROUND(
+        SUM(Profit) / SUM(Sales) * 100,
+        2
+    ) AS Profit_Margin_Percent
+FROM sales
+GROUP BY
+    Customer_ID,
+    Customer_Name
+ORDER BY Profit_Margin_Percent DESC;
+```
+---
+
 # 🧠 SQL Skills Demonstrated
 
 This project demonstrates practical SQL skills including:
@@ -677,7 +698,11 @@ This project demonstrates practical SQL skills including:
 * Revenue Ranking
 * Customer Profitability Analysis
 * Customer Ranking
-* Revenue vs. Profit Comparison 
+* Revenue vs. Profit Comparison
+* Customer Profit Margin Analysis
+* Percentage Calculations
+* Customer Value Analysis
+* Multi-Metric Business Analysis
 
 ---
 
