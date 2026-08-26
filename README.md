@@ -1043,3 +1043,33 @@ Sales-Analytics-Project/
 │   └── sales_dashboard.png
 │
 └── README.md
+
+---
+
+---
+
+## 👨‍💻 About This Project
+
+This project was created as a practical Data Analytics portfolio project to demonstrate the ability to transform raw sales data into actionable business insights using SQL, Excel, Python, and Power BI.
+
+The analysis focuses on understanding sales performance, profitability, customer behavior, product performance, regional trends, monthly trends, and payment methods.
+
+### 📌 Project Focus
+
+**Data → Analysis → Visualization → Insights → Business Decisions**
+
+---
+
+## 👤 Author
+
+**Javed Ali**
+
+Aspiring Data Analyst | SQL | Excel | Python | Power BI
+
+📂 GitHub: [Javedali-analytics](https://github.com/Javedali-analytics)
+
+---
+
+⭐ If you found this project useful, feel free to explore the repository and connect with me on GitHub.
+
+---
