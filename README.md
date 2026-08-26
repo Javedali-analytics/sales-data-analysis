@@ -71,6 +71,21 @@ Business Insights & Recommendations
 
 ---
 
+## 📌 Project Highlights
+
+| KPI | Result |
+|---|---:|
+| 💰 Total Sales | **653,868.08** |
+| 📈 Total Profit | **148,788.65** |
+| 📊 Profit Margin | **22.76%** |
+| 🏆 Top Sales Category | **Electronics** |
+| 💎 Highest Margin Category | **Office Supplies — 42.51%** |
+| 📅 Best Performing Month | **September — 79,740.98 Sales** |
+| 🎧 Top-Selling Product | **Headphones — 120,687.39 Sales** |
+| 💳 Top Payment Method | **Credit Card — 158,807.46 Sales** |
+
+---
+
 ## 📂 Dataset
 
 The dataset contains **500 sales transactions** with information including:
