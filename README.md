@@ -27,11 +27,35 @@ The main objectives of this project are:
 
 ## 🛠️ Tools & Technologies
 
-- Microsoft Excel
-- MySQL
-- phpMyAdmin
-- SQL
-- GitHub
+| Tool | Purpose |
+|---|---|
+| **MySQL** | Data storage, SQL querying and analysis |
+| **SQL** | Data aggregation, KPI calculation and business analysis |
+| **Excel** | Data analysis and dashboard creation |
+| **Python** | Data cleaning, analysis and visualization |
+| **Power BI** | Interactive dashboard and business intelligence |
+| **GitHub** | Project version control and portfolio presentation |
+
+---
+
+## 🔄 Project Workflow
+
+```text
+Raw Sales Data
+      ↓
+Data Cleaning & Preparation
+      ↓
+MySQL Database
+      ↓
+SQL Analysis
+      ↓
+Excel Analysis
+      ↓
+Python Analysis
+      ↓
+Power BI Dashboard
+      ↓
+Business Insights & Recommendations
 
 ---
 
