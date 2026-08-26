@@ -706,6 +706,171 @@ This project demonstrates practical SQL skills including:
 
 ---
 
+# 📊 Key Business Insights
+
+## 1. Overall Business Performance
+
+- **Total Sales:** 653,868.08
+- **Total Profit:** 148,788.65
+- **Overall Profit Margin:** 22.76%
+
+The business generated strong overall sales with a healthy profit margin of 22.76%, indicating that the company is operating with a profitable sales structure.
+
+---
+
+## 2. Category Performance
+
+- **Electronics** generated the highest sales with **485,235.32**.
+- **Furniture** generated **121,428.73** in sales.
+- **Accessories** generated **31,644.41** in sales.
+- **Office Supplies** generated **15,559.62** in sales.
+
+However, **Office Supplies** achieved the highest profit margin at **42.51%**, while Electronics had the lowest profit margin at **19.45%**.
+
+**Business Insight:** Electronics is the primary revenue driver, but Office Supplies provides a significantly higher profit margin. The business should focus on maintaining Electronics sales while exploring opportunities to expand high-margin categories.
+
+---
+
+## 3. Monthly Performance
+
+**September** was the strongest month with:
+
+- **Sales:** 79,740.98
+- **Profit:** 18,240.99
+
+**March** was the weakest month with:
+
+- **Sales:** 29,947.83
+- **Profit:** 7,340.30
+
+**Business Insight:** Sales performance varies considerably throughout the year. Understanding the factors behind September's strong performance could help improve weaker months such as March.
+
+---
+
+## 4. Product Performance
+
+**Headphones** was the top-selling product:
+
+- **Sales:** 120,687.39
+- **Profit:** 23,498.17
+- **Profit Margin:** 19.47%
+
+Other strong-selling products included:
+
+- Keyboard
+- Laptop
+- Smartphone
+- Monitor
+
+At the same time, products such as **Pen Set, Printer Paper, and File Folder** showed profit margins above **42%**.
+
+**Business Insight:** High-sales products drive revenue, while smaller Office Supplies products generate stronger margins. A balanced product strategy can help maximize both revenue and profitability.
+
+---
+
+## 5. Regional Performance
+
+**North** generated the highest total profit among the regions analyzed.
+
+**Business Insight:** The North region appears to be an important contributor to overall profitability. The company should investigate the factors behind its strong performance and identify whether successful strategies can be applied to other regions.
+
+---
+
+## 6. Payment Method Performance
+
+**Credit Card** generated the highest sales and profit among the payment methods.
+
+Payment method performance:
+
+| Payment Method | Total Orders | Total Sales | Total Profit |
+|---|---:|---:|---:|
+| Credit Card | 100 | 158,807.46 | 36,419.54 |
+| Cash | 114 | 131,959.33 | 29,631.14 |
+| Debit Card | 95 | 130,608.46 | 28,660.18 |
+| Bank Transfer | 99 | 127,581.86 | 29,927.11 |
+| Mobile Banking | 92 | 104,910.97 | 24,150.68 |
+
+**Business Insight:** Credit Card transactions generated the highest revenue and profit. Mobile Banking had the lowest sales among the available payment methods, indicating potential opportunities to improve digital payment adoption.
+
+---
+
+## 7. Customer Performance
+
+Customer-level analysis identified several high-value customers.
+
+The highest-sales customer was:
+
+**Customer 68**
+
+- **Orders:** 4
+- **Sales:** 18,546.13
+- **Profit:** 3,633.73
+
+The highest-profit customer was:
+
+**Customer 3**
+
+- **Orders:** 7
+- **Sales:** 15,713.54
+- **Profit:** 3,737.79
+
+**Business Insight:** High-sales customers and high-profit customers are not always the same. Customer profitability should therefore be considered alongside total sales when designing retention and loyalty strategies.
+
+---
+
+# 🎯 Business Recommendations
+
+Based on the analysis, the following actions are recommended:
+
+### 1. Focus on High-Revenue Products
+Continue investing in strong-performing Electronics products such as Headphones, Keyboard, Laptop, Smartphone, and Monitor.
+
+### 2. Expand High-Margin Categories
+Office Supplies achieved the highest profit margin of **42.51%**. Expanding this category could improve overall profitability.
+
+### 3. Investigate Seasonal Trends
+September was the strongest month, while March was the weakest. Investigating seasonal demand and promotional strategies could help improve weaker months.
+
+### 4. Strengthen High-Value Customer Retention
+Customers generating high sales and profit should be targeted with loyalty programs, personalized offers, and retention campaigns.
+
+### 5. Optimize Payment Channels
+Credit Card is currently the strongest payment method by sales and profit. The company should continue supporting popular payment methods while encouraging adoption of digital channels such as Mobile Banking.
+
+### 6. Learn From Strong Regions
+The North region generated the highest profit. Identifying the strategies responsible for its performance could help improve other regions.
+
+---
+
+# 📝 Final Conclusion
+
+This sales data analysis project provides a comprehensive view of business performance across **sales, profit, products, categories, regions, customers, months, and payment methods**.
+
+The analysis shows that the business generated **653,868.08 in total sales** and **148,788.65 in total profit**, resulting in an overall profit margin of **22.76%**.
+
+Electronics was the main revenue-generating category, while Office Supplies delivered the highest profit margin. September was the strongest month, and Headphones was the top-selling product. Customer and payment-method analysis also revealed important opportunities for improving profitability and customer retention.
+
+Overall, the analysis demonstrates how **SQL, Excel, Python, and Power BI** can be combined to transform raw sales data into meaningful business insights and support data-driven decision-making.
+
+---
+
+# 🚀 Project Outcome
+
+Through this project, I developed practical experience in:
+
+- SQL Data Analysis
+- Data Cleaning
+- Exploratory Data Analysis
+- Business Intelligence
+- Excel Dashboard Development
+- Python Data Analysis
+- Power BI Visualization
+- KPI Development
+- Customer Analysis
+- Product & Category Analysis
+- Profitability Analysis
+- Business Insight Generation
+
 # 📈 Final Business Insights
 
 Based on the SQL analysis and dashboard findings, several key business insights were identified:
