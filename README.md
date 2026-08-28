@@ -1008,7 +1008,7 @@ Sales-Analytics-Project/
 │   └── sales_analysis.xlsx
 │
 ├── images/
-│   └── sales_dashboard.png
+│   └── sales_analytics_dashboard.png
 │
 └── README.md
 ```
