@@ -1013,9 +1013,7 @@ Sales-Analytics-Project/
 │   └── sales_dashboard.png
 │
 └── README.md
-
----
-
+```
 ---
 
 ## 👨‍💻 About This Project
