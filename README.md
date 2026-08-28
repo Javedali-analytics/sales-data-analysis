@@ -764,6 +764,8 @@ ORDER BY Profit_Margin_Percent DESC;
 
 # 🧠 SQL Skills Demonstrated
 
+This project demonstrates practical SQL skills ranging from basic data aggregation to advanced analytical techniques. The queries were designed to answer real-world business questions related to sales, profitability, products, customers, regions, payment methods, and time-based performance.
+
 This project demonstrates practical SQL skills including:
 
 * SELECT
