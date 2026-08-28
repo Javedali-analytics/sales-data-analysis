@@ -48,14 +48,12 @@ Data Cleaning & Preparation
 MySQL Database
       ↓
 SQL Analysis
-      ↓
-Excel Analysis
-      ↓
-Python Analysis
-      ↓
-Power BI Dashboard
-      ↓
-Business Insights & Recommendations
+↓
+Excel Analysis & Dashboard
+↓
+Business Insights
+↓
+Business Recommendations
 ```
 ---
 
@@ -966,7 +964,7 @@ These insights can help businesses identify high-performing products, profitable
 
 ## 🎯 Conclusion
 
-This project demonstrates an end-to-end sales data analysis workflow using SQL, MySQL, phpMyAdmin, and Power BI.
+This project demonstrates an end-to-end sales data analysis workflow using SQL, MySQL, phpMyAdmin, and Excel.
 
 Through exploratory and advanced SQL analysis, the project identifies key patterns in sales, profitability, product performance, customer contribution, payment methods, regional performance, and monthly trends.
 
@@ -982,7 +980,7 @@ The dashboard and SQL analysis provide actionable insights that can help busines
 - Identify opportunities for improving profit margins
 - Support data-driven business decisions
 
-Overall, this project showcases practical skills in **SQL data analysis, business intelligence, data visualization, and analytical storytelling**.
+Overall, this project showcases practical skills in **SQL data analysis, Excel-based dashboarding, data visualization and analytical storytelling**.
 
 ---
 
