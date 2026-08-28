@@ -949,7 +949,6 @@ These insights can help businesses identify high-performing products, profitable
 - **MySQL** — Data analysis and SQL querying
 - **phpMyAdmin** — Database management and query execution
 - **SQL** — Aggregation, filtering, grouping, ranking, CTEs, window functions, and business analysis
-- **Power BI** — Interactive dashboard and data visualization
 - **Git & GitHub** — Version control and project documentation
 
 ---
