@@ -61,12 +61,8 @@ Business Recommendations
 
 - 📁 [SQL Queries](sql/)
 - 📊 [Excel Analysis](excel/)
-- 🐍 [Python Analysis](python/)
-- 📈 [Power BI Dashboard](powerbi/)
-- 🖼️ [Dashboard Screenshot](images/)
-- 📄 [Project Reports](reports/)
+- 🖼️ [Dashboard Screenshot](images/sales_analytics_dashboard.png)
 - 🗃️ [Sales Dataset](data/)
-
 ---
 
 ## 📌 Project Highlights
