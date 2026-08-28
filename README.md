@@ -32,8 +32,6 @@ The main objectives of this project are:
 | **MySQL** | Data storage, SQL querying and analysis |
 | **SQL** | Data aggregation, KPI calculation and business analysis |
 | **Excel** | Data analysis and dashboard creation |
-| **Python** | Data cleaning, analysis and visualization |
-| **Power BI** | Interactive dashboard and business intelligence |
 | **GitHub** | Project version control and portfolio presentation |
 
 ---
@@ -90,8 +88,6 @@ Business Recommendations
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
 - Excel Analysis
-- Python Data Analysis
-- Power BI
 - Data Visualization
 - KPI Development
 - Window Functions
